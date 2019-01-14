@@ -1,0 +1,54 @@
+@import "variables";
+.itemcol{
+    width: 20%;
+    float: left;
+    div{
+  font-size: 16px;
+  cursor: pointer;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.showblock{
+    display: block;
+    color: fade(@font-color,60%);
+    span{
+        font-size: 14px;
+    }
+}
+.itemcoltitle{
+    font-size: 16px;
+    font-weight: bold;
+    color: @font-color;
+}
+
+.showline{
+    display: inline-block;
+    float: left;
+    line-height: 48px;
+    padding: 0 5px;
+     color: fade(@font-color,60%);
+    &:last-child{
+        width: 66%;
+    };
+}
+.hasok{
+    color:@succeed ;
+    span{
+        padding: 0 1px;
+       &:first-child{
+        font-size: 60px;
+         line-height: 0px;
+       } 
+    }
+}
+.hasforbid{
+    color:fade(@warning,80%);
+     span{
+        padding: 0 1px;
+       &:first-child{
+        font-size: 60px;
+        line-height: 0px;
+       } 
+    }
+}
+}
+

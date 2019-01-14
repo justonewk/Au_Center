@@ -1,0 +1,317 @@
+@import "variables";
+.display(@b, @float, @margin, @padding, @width) {
+    display: @b;
+    float: @float;
+    margin: @margin;
+    padding: @padding;
+    width: @width;
+}
+@tablesize: 14px;
+@hongse:#F21F3D;
+.BindDingDing{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	// .BindDingDingHeader{
+	// 	// width:  calc(100% - 24px);
+	// 	// margin:0 0 0 24px;
+	// }
+	.SelectType{
+		height: 36px;
+		line-height: 36px;
+		color:fade(@font-color,60%);
+	}
+	.seek-wraper{
+		width: 100%;
+		color:fade(@font-color,60%);
+		input{
+			height: 36px;
+		  line-height: 36px;
+		}
+
+
+	}
+	.department{
+		width: 100%;
+		margin: 24px 0 16px 0;
+		height: 18px;
+		line-height: 18px;
+		.item{
+			font-size: 16px;
+			display: block;
+			margin-right: 32px;
+			color:fade(@font-color,80%);
+			float: left;
+			font-weight: 600;
+			cursor: pointer;
+		}
+		.active{
+			color:@button;
+		}
+	}
+	.Optionbangdingtitle{
+		color:fade(@font-color,80%);
+		font-size: 18px;
+		margin-bottom:24px;
+	}
+	.conent{
+		width: 90%;
+		.ant-form-item{
+		width: 90%;
+		.ant-select-selection{
+			height: 38px;
+			line-height: 38px;
+		}
+		.ant-select-selection__placeholder{
+			height: 30px;
+			line-height: 30px;
+		}
+		input{
+			height: 36px;
+			line-height: 36px;
+		}
+	  }
+	  .canceldel{
+	  	height: 36px;
+	  	line-height: 36px;
+	  	margin-top: 4px;
+	  }
+	  .plus{
+	  	.ant-form-item{
+	  		width: 100%;
+	  	}
+	  	.ant-btn-dashed{
+	  	width: 100%;
+	  	height: 36px;
+	  	line-height: 36px;
+	  }
+	  }
+	  .ant-btn{
+	  	height: 36px;
+	  	line-height: 36px;
+	  }
+	  .sunbtn{
+	  	position: relative;
+	  	height: 36px;
+	  	div{
+	  		width: 100%;
+	  		float: left;
+	  		height: 100%;
+	  		margin-left: 0px;
+	  		span{
+	  			display: block;
+	  			width: 100%;
+	  			float: left;
+	  			height: 100%;
+	  			.ant-btn-primary{
+				  	position: absolute;
+				  	left: 50%;
+				  	margin-left: -64px;
+				  }
+	  		}
+	  	}
+	  }
+	  
+	}
+
+	
+	.table{
+		 float: left;
+		 width: 100%;
+		.ant-table-thead{
+			th{
+			background-color: fade(@bg-color,40%);
+			text-align: center;
+			color: @font-color;
+			}
+		}
+		.ant-table-body{
+			text-align: center;
+			font-size: 16px;
+			.ant-table-row:nth-of-type(even){
+			 background:fade(@bg-color,10%);}
+			td{
+				text-align: center;
+				padding: 18px 16px;
+				border:none;
+			}
+			.tablesuccuss{
+				color: @succeed
+			}
+			.tableyic{
+                  color: @warning
+			}
+			.tableerror{
+				color: @error
+			}
+		}
+	}
+	.UserBing{
+		.box-left{
+			.ant-table{
+				line-height: 1.2;
+			}
+		}
+	}
+	.userbinglog{
+		float: left;
+		width: 90%;
+		margin-top: 24px;
+		border-top: 1px solid fade(@font-color,20%);
+		.logcontent{
+			margin-top: 32px;
+			float: left;
+			width: 100%;
+			border:1px solid fade(@font-color,20%);
+		
+			.title{
+				color: @font-color;
+				font-size: 18px;
+				font-weight: bold;
+				float: left;
+				height: 50px;
+				line-height: 50px;
+				padding: 0 14px;
+				margin: 0;
+
+			}
+			.active{
+				float: right;
+				display: block;
+				height: 50px;
+				line-height: 50px;
+					padding: 0 14px;
+			}
+			.logTable{
+				float: left;
+				width: 100%;
+				border-top:1px solid fade(@font-color,20%);
+			}
+		}
+	}
+	.recodeunbanding{
+		color: @warning
+	}
+	.recodeall{
+		float: left;
+		width: 100%;
+		
+		.gobanging{
+		float: right;
+		display: block;
+		margin:16px 10% ;
+	  }
+	}
+	.logding{
+		float: left;
+		width: 100%;
+	}
+	
+}
+.reacodebing {
+    margin-top: 200px !important;
+    .ant-modal-content {
+        width: 320px;
+        margin: 0 auto;
+        .ant-modal-header {
+            text-align: center;
+            padding-top: 16px !important;
+        }
+        .ant-modal-body {
+            padding: 0;
+            height: auto;
+            padding-bottom: 16px;
+            .text {
+                text-indent: 16px;
+                text-align: center;
+                margin: 0 5%;
+                .big {
+                    font-weight: 800;
+                    color: #000000
+                }
+            }
+            .postfrommesaag{
+                //绑定界面提示信息
+                .item{
+                    overflow: hidden;
+                        width: 94%;
+                        margin: 0 auto;
+                        margin-top: 3%;
+                    border-bottom: 1px solid rgba(26,28,29,0.2);
+                    .wrapperpostfrommesaag{
+                       overflow: hidden;  
+                .data{
+                      .display(block, left, 0, 1%, 80%);
+                      font-size: @tablesize;
+                      .dingdingname{
+                        font-weight: 800
+                        
+                      }
+                      .quanxname{
+
+                      }
+
+                }
+                .icon{
+                      .display(block, left, 0, 1%, 20%);
+                        color: @hongse;
+                        text-align: center;
+                        font-family:PingFangSC-Medium;
+
+                }
+
+                    }
+                
+                .tishixiaox{
+                    display: block;
+                    font-size: 10px;
+                    color: @hongse;
+                    font-family:PingFangSC-Medium;
+                }
+            }
+        
+             }
+        }
+        // .ant-modal-footer {
+        //     background-color: #F0F0F0;
+        //     overflow: hidden;
+        //     .ant-btn-lg {
+        //         float: right;
+
+        //         color: @baise;
+        //         background-color: @hongse !important;
+        //         border: 1px solid @hongse !important;
+        //     }
+           
+            
+        //     .ant-btn-primary {
+        //         margin-right: 53%;
+        //         background-color: #29CF73  !important;
+        //         border: 1px solid #29CF73  !important;
+        //     }
+        // }
+    }
+
+}
+.errmodelbangding{
+    .ant-modal-content {
+        .ant-modal-header {
+      
+    text-align:left;
+   
+    border-bottom: 1px solid rgb(26,28,29,0.2) !important;
+      .ant-modal-title{
+             font-size: 18px;
+    font-weight: 800;
+        }
+}
+.ant-modal-body{
+    padding-bottom: 0px;
+}
+.ant-modal-footer {
+     border-top: 1px solid rgba(26,28,29,0.2) !important;
+    background-color: #fff;
+    text-align: center;
+
+}
+}
+}

@@ -1,0 +1,222 @@
+.userlist {
+  padding: 0px 1%;
+  position: relative;
+}
+.userlist .option-edit {
+  text-align: right;
+  right: 24px;
+}
+.userlist .addAdministrator {
+  display: inline-block;
+  float: right;
+  margin-right: 1%;
+  color: #1f8ded;
+  cursor: pointer;
+}
+.userlist .top .name {
+  font-size: 18px;
+  color: #33587b;
+  font-weight: 800;
+}
+.userlist .top .samll {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+}
+.userlist .top .eidt {
+  border-color: #1f8ded;
+  color: #1f8ded;
+  margin-right: 5%;
+}
+.userlist .top .colse {
+  border-color: #f8881f;
+  color: #f8881f;
+}
+.userlist .top .user_adminresetpwd {
+  display: inline-block;
+  margin-right: 4%;
+}
+.userlist .data .ant-col-xxl-offset-1 {
+  margin-left: 0px;
+}
+.userlist .UserDetailRole .data {
+  padding: 1% 0;
+}
+.userlist .UserDetailRole .data .itemrow {
+  width: 100%;
+  margin: 1% 0;
+}
+.userlist .UserDetailRole .Pagination-zdy {
+  overflow: hidden;
+}
+.userlist .UserDetailRole .Pagination-zdy .ant-pagination {
+  float: right;
+  min-width: 200px;
+  margin-right: -8px;
+}
+.userlist .userDetailBase .userbase-wrapper .nextshow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 203px;
+}
+.userlist .userDetailBase .userbase-wrapper .ant-form-item-control-wrapper {
+  width: 80%;
+}
+.addNewuserToUserlist .modeCancel {
+  float: left;
+  margin-left: 89%;
+}
+.addNewuserToUserlist .addnewrole .role-wrapper .ant-row {
+  margin-bottom: 1%;
+  overflow: hidden;
+}
+.addNewuserToUserlist .addnewrole .role-wrapper .ant-row .ant-col-xxl-3 {
+  width: 21.5%;
+}
+.addNewuserToUserlist .addnewrole .userlist-top-item {
+  margin-top: 26%;
+}
+.addNewuserToUserlist .addnewrole .modeSave {
+  position: absolute;
+  left: 76%;
+}
+.addNewuserToUserlist .addnewrole .modeSave .ant-btn {
+  padding: 0 15px !important;
+}
+.UseDetailGame .top {
+  overflow: hidden;
+}
+.UseDetailGame .gamenamebtn {
+  margin-left: 1%;
+  background-color: rgba(51, 88, 123, 0.4);
+  color: rgba(51, 88, 123, 0.8);
+}
+.UseDetailGame .gamenamebtn:hover {
+  border-color: rgba(51, 88, 123, 0.4);
+}
+.UseDetailGame .gamenamebtn:first-child {
+  margin-left: 0;
+}
+.UseDetailGame .addgame {
+  float: right;
+  margin-right: 4.5%;
+  color: #1f8ded;
+  cursor: pointer;
+}
+.UseDetailGame .activebtn {
+  background-color: #1f8ded;
+  color: #fff;
+}
+.UseDetailGame .GameContent .show-chaneel,
+.UseDetailGame .GameContent .show-role {
+  overflow: hidden;
+  border: 1px solid rgba(51, 88, 123, 0.4);
+  margin: 1% 0;
+  border-radius: 4px;
+}
+.UseDetailGame .GameContent .show-chaneel .top,
+.UseDetailGame .GameContent .show-role .top {
+  padding: .5%;
+}
+.UseDetailGame .GameContent .show-chaneel .top .left,
+.UseDetailGame .GameContent .show-role .top .left {
+  float: left;
+  width: 60%;
+  font-size: 18px;
+  color: rgba(51, 88, 123, 0.8);
+  font-weight: 800;
+}
+.UseDetailGame .GameContent .show-chaneel .top .right,
+.UseDetailGame .GameContent .show-role .top .right {
+  float: left;
+  width: 37%;
+  text-align: right;
+  border: none;
+  color: #1f8ded;
+  margin-right: 1%;
+  cursor: pointer;
+}
+.UseDetailGame .GameContent .show-chaneel div,
+.UseDetailGame .GameContent .show-role div {
+  overflow: hidden;
+}
+.UseDetailGame .GameContent .show-chaneel .channeName,
+.UseDetailGame .GameContent .show-role .channeName {
+  display: inline-block;
+  float: left;
+  background-color: rgba(51, 88, 123, 0.4);
+  color: rgba(51, 88, 123, 0.8);
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: .5% 1%;
+  border-radius: 4px;
+}
+.modifyChane .Channemodel .wrapper {
+  width: 100%;
+}
+.modifyChane .Channemodel .wrapper .showSelect {
+  height: 100%;
+}
+.modifyChane .Channemodel .wrapper .showSelect .agents {
+  height: calc(100% - 36px);
+  overflow-y: scroll;
+}
+.modifyChane .Channemodel .wrapper .showSelect .footer {
+  margin: 2%;
+  text-align: right;
+}
+.modifyChane .Channemodel .wrapper .showSelect .footer .ant-btn-primary {
+  margin-right: 2%;
+}
+.noChannel-wrapper,
+.norole-wrapper {
+  color: rgba(51, 88, 123, 0.6);
+  padding-left: .5%;
+}
+.Details .userlist {
+  padding: 0 2%;
+}
+.Details .ant-tabs-tabpane .userlist {
+  padding: 0;
+}
+.ant-tabs-nav .ant-tabs-tab:frist-child {
+  padding: 12px 0;
+}
+.Multistagewrapper {
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+.Multistagewrapper .wrapper-right,
+.Multistagewrapper .wrapper-left {
+  float: left;
+  width: 50%;
+}
+.user_adminresetpwd_model .data {
+  overflow: hidden;
+}
+.user_adminresetpwd_model .data span,
+.user_adminresetpwd_model .data input {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+.user_adminresetpwd_model .data span {
+  width: 10%;
+  line-height: 34px;
+}
+.addUserModifyBatch .showgame div {
+  height: auto;
+}
+.addUserModifyBatch .showgame .data-content {
+  height: 403px;
+}
+.addUserModifyBatch .showgame .btn {
+  float: left;
+  position: relative;
+  height: 36px;
+  overflow: hidden;
+}
+.addUserModifyBatch .showgame .btn .ant-btn {
+  width: 83px;
+}

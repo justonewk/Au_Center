@@ -1,0 +1,116 @@
+@import "variables";
+.logo {
+	padding: 1% 0;
+    overflow: hidden;
+}
+.error{
+    color: red;
+}
+
+.ant-layout {
+    .zdy {
+        background: @baise;
+        .leftslider {
+            border-right: 0;
+            background: @baise;
+        }
+        a{
+            color:fade(@font-color,80%);
+        }
+        .ant-menu-item-selected{
+        	background:fade(@button,40%);
+        	color:@baise;
+            a{
+                color:@baise;
+            }
+        }
+    }
+    .topslide{
+        border-bottom: 1px solid #e8e8e8;
+    	.ant-menu{
+            width: 96%;
+    		background-color: @baise;
+            height: 80px;
+            padding: 0;
+            margin:0;
+            color: @font-color;
+            .ant-menu-item{
+               padding: 0;
+                span{
+                    display: block;
+                    float: left;
+                    color: @font-color;
+                    padding: 0 20px;
+                }
+                .quit{
+                    float: left;
+                }
+            }
+            .ant-menu-item:hover{
+                border:none;
+
+            }
+            .ant-menu-item-selected{
+                border:none;
+            }
+           .ant-menu-item-active{
+            border:none;
+           }
+           .updateCacheItem{
+            margin-right: 20px;
+            color: @font-color;
+            :hover{
+               color: @button;
+              }
+          }
+
+           }
+            
+    	  }
+          
+    .contendiv{
+        width: 100%;
+       height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+}
+.dropname{
+    img{
+        margin:0 12px 0 0;
+    }
+    p{
+        color: fade(@font-color,60%);
+        margin: 0px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.ModifyModal{
+    .ant-modal-header{
+        border: none;
+        .ant-modal-title{
+        color: @font-color;
+        font-weight: 600;
+      }
+    }
+    
+    .all{
+        
+        width: 100%;
+    }
+    .label{
+        width: 353px;
+        height: 36px;
+        line-height: 36px;
+        margin-bottom: 16px;
+
+        .ant-input{
+            float: right;
+            height: 36px;
+            line-height: 36px;
+            width: 280px;
+        }
+    }
+}

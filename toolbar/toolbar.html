@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <title>尘缘手游-概念站</title>
+</head>
+
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./toolbar.js">
+
+</script>
+
+<body>
+    <div class="toolbar-wraper" id="container">
+        <button class="show" id="btn-open">
+            <img id="singleIcon-img" src="img/singleIcon.png">
+            <span>子系统入口</span>
+        </button>
+        <div class="data-wrapper" id="contentshow">
+            <div class="top">
+                <div class="title">子系统列表</div>
+                <div class="right-option">
+                    <span class="settings" id="settings">
+
+                        <img id="settings-img" src="img/settings.png">
+                        <div class="specific-option">
+                            <span id="modify-btn">修改密码</span>
+                        </div>
+                    </span>
+                    <span class="close" id="colse">
+                        <img id="close-img" src="img/close.png">
+                    </span>
+                </div>
+
+            </div>
+            <div class="boxs" id="subsystem">
+
+            </div>
+            <div class="modify-paw-box" id="modify-paw-box">
+                <div class="box">
+                    <div class=" colsemima" id="closepaw">
+                        <img id="close-img2" src="img/close.png"> </div>
+                    <div class="item">
+                        <span>旧密码</span>
+                        <input type="password" id="queren" />
+                    </div>
+                    <div class="item">
+                        <span>新密码</span>
+                        <input type="password" id="newword" />
+                    </div>
+                    <div class="item">
+                        <button onclick="ok_submit()">
+                            确认
+                        </button>
+                    </div>
+                    <div id="show-err"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

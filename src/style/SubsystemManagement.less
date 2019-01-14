@@ -1,0 +1,566 @@
+@import "variables";
+.SubsystemManagement {
+    .SubsystemManagementHeader {}
+    .ant-pagination {
+        float: right;
+        min-width: 200px;
+    }
+    float: left;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    .subsysLeft {
+        background: #fff;
+        .subsysLeftTop {
+            width: 100%;
+            float: left;
+            font-size: 14px;
+            color: #425879;
+            height: 70px;
+            line-height: 70px;
+            font-weight: bold;
+            .name {
+                text-align: left;
+                float: left;
+                padding: 0 24px;
+            }
+            .addsub {
+                float: right;
+                text-align: right;
+                line-height: 70px;
+                padding: 0 24px;
+                cursor: pointer;
+            }
+        }
+        .ant-menu {
+            background: #fff;
+            color: #666;
+            overflow: hidden;
+            .ant-menu-item-active:after {
+                border-right: 2px solid @button;
+            }
+            .ant-menu-inline .ant-menu-item,
+            .ant-menu-inline .ant-menu-submenu-title {
+                width: 100%;
+            }
+            .ant-menu-item:hover {
+                width: 100%;
+            }
+        }
+        .subLeftTitle {
+            font-size: 14px;
+            font-weight: bold;
+            height: 40px;
+            padding-top: 20px;
+            line-height: 40px;
+            padding-left: 24px;
+        }
+        .addBtn {
+            margin-left: 20px;
+            border: 1px dashed #ccc;
+        }
+        .leftText {
+            display: block;
+            float: left;
+            width: 100%;
+            color: fade(@font-color, 60%);
+        }
+        .more {
+            width: 30px;
+            position: absolute;
+            right: 0;
+        }
+        .ant-dropdown-link {
+            display: block;
+            width: 30px;
+            float: right;
+            color: #666;
+        }
+    }
+    .userlist {
+        background: #fff;
+        padding: 0 20px;
+        float: left;
+        width: 100%;
+        .topBtnGroup {
+            float: left;
+            width: 100%;
+            height: 76px;
+            border-bottom: 1px solid fade(@bg-color, 40%);
+            margin-bottom: 24px;
+            overflow: hidden;
+            .titleserch {
+                float: right;
+                width: 20%;
+            }
+            .addchildSys {
+                float: left;
+                margin: 20px 0px;
+                height: 36px;
+            }
+            .refresh {
+                float: right;
+                margin: 20px;
+                height: 36px;
+            }
+        }
+        .systemCardGroup {
+            float: left;
+            width: 100%;
+            text-align: center;
+            .subtemp {
+                margin: 154px 0;
+            }
+            .sysitem {
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .SubsystemDetailItemTop {
+        width: 100%;
+        float: left;
+        .colSubsystemDetailItemTopForm{
+          min-height: 107px;
+        }
+        .errtips {
+            float: left;
+            color: #f5222d !important;
+            font-size: 12px !important;
+        }
+        .hasSameSName {
+            border: 1px solid #f5222d;
+            box-shadow: 0 0 0;
+        }
+        .top {
+            width: 100%;
+            float: left;
+            min-height: 50px;
+            img {
+                width: 48px;
+                height: 48px;
+                border-radius: 25px;
+                float: left;
+            }
+            .avatar-uploader {
+                float: left;
+                .ant-upload {
+                    width: 80px;
+                    height: 80px;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+            .title {
+                float: left;
+                padding: 0 20px;
+                .leftName {
+                    float: left;
+                    font-size: 16px;
+                    line-height: 50px;
+                    padding-right: 20px;
+                    color: fade(@font-color, 80%);
+                }
+                h2 {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #425979;
+                }
+                .myname {
+                    width: 100%;
+                    float: left;
+                    margin-bottom: 10px;
+                }
+                .setName {
+                    height: 30px;
+                    line-height: 30px;
+                    width: 220px;
+                    margin: 10px 0 0 0;
+                    float: left;
+                }
+                span {
+                    color: fade(@font-color, 40%);
+                    font-size: 14px;
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .Btn {
+                float: right;
+                margin-left: 20px;
+            }
+        }
+        .roleDetailItem {
+            margin-top: 10px;
+            float: left;
+            width: 100%;
+            .leftName {
+                float: left;
+                font-size: 16px;
+                padding: 0 20px;
+                line-height: 30px;
+                color: fade(@font-color, 80%);
+            }
+            .desc {
+                float: left;
+                width: 80%;
+                line-height: 18px;
+                font-size: 14px;
+                color: fade(@font-color, 80%);
+                ;
+            }
+        }
+        .setdesc {
+            float: left;
+            width: 60%;
+            line-height: 30px;
+            height: 30px;
+            font-size: 16px;
+            color: fade(@font-color, 80%);
+        }
+        .form {
+            float: left;
+            width: 100%;
+            .roleItem {
+                width: 200px;
+                float: left;
+                padding-left: 20px;
+                .itemtitle {
+                    color: fade(@font-color, 60%);
+                    font-size: 14px;
+                }
+                .itemtext {
+                    color: @font-color;
+                    font-size: 16px;
+                }
+            }
+            .ant-form-item-label {
+                height: 35px;
+                line-height: 35px;
+                label {
+                    font-size: 14px;
+                    color: fade(@font-color, 60%);
+                    ;
+                }
+            }
+            .ant-form-item-control-wrapper {
+                font-size: 16px;
+                color: fade(@font-color, 80%);
+                ;
+                .ant-form-item-children {
+                    p {
+                        height: 40px;
+                        line-height: 40px;
+                        margin: 0;
+                    }
+                    .text {
+                        height: auto;
+                        line-height: 25px;
+                        word-wrap: break-word;
+                        word-break: break-all;
+                        overflow: hidden;
+                    }
+                    .exportBtn {
+                        border: 1px solid fade(@button, 60%);
+                        ;
+                        color: @button;
+                    }
+                    .p_group {
+                        height: auto;
+                        span {
+                            display: block;
+                            float: left;
+                            padding: 5px 10px;
+                            text-align: center;
+                        }
+                    }
+                }
+                .ant-form-explain {
+                    font-size: 12px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+    .SubsystemDetailItemBottom {
+        width: 100%;
+        float: left;
+        .ant-tabs-tabpane {
+            min-height: 500px;
+        }
+        .topGroup {
+            width: 98%;
+            margin: 1% 1%;
+            .forbide {
+                margin: 0 24px;
+            }
+        }
+        .editpermit {
+            margin: 20px;
+            max-width: 500px;
+        }
+        .tempimg {
+            width: 400px;
+            margin: auto;
+            position: absolute;
+            margin-left: -200px;
+            left: 50%;
+        }
+    }
+    .addSubSysytem {
+        //新增子系统
+        .top {
+            width: 100%;
+            margin: 1% 0;
+            font-size: 16px;
+            .newsubTip {
+                color: @button
+            }
+        }
+        .addsubForm {
+            width: 520px;
+            float: left;
+            margin-left: 10%;
+            .ant-form-item-label {
+                height: 30px;
+                line-height: 30px;
+                label {
+                    color: @font-color;
+                    ;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .ant-form-item-control-wrapper {
+                .tips {
+                    height: 30px;
+                    line-height: 30px;
+                    margin: 0;
+                    color: fade(@font-color, 40%);
+                    ;
+                }
+                .ant-form-item-children {
+                    color: fade(@font-color, 60%);
+                }
+            }
+        }
+        .addSubBtnGroup {
+            float: left;
+            width: 100%;
+            .ant-btn-primary {
+                margin: 1% 12px 50px 10%;
+            }
+        }
+    }
+    .ant-upload-drag {
+        background: fade(@button, 4%);
+        .ant-upload-text {
+            font-size: 14px !important;
+            color: @font-color !important;
+        }
+        .ant-upload-hint {
+            color: rgba(66, 88, 121, .6) !important;
+            font-size: 12px !important;
+        }
+    }
+}
+
+.addsubModal {
+    text-align: center;
+    .type {
+        height: 110px;
+        margin: auto;
+    }
+    .tips {
+        font-size: 24px;
+        height: 24px;
+        text-align: center;
+        .error {
+            color: fade(@error, 80%);
+        }
+        .success {
+            color: @button
+        }
+    }
+    .detail {
+        width: 100%;
+        .errortext {
+            font-size: 14px;
+            color: fade(@font-color, 60%);
+            margin: 36px;
+            line-height: 18px;
+        }
+        .top {
+            height: 48px;
+            line-height: 48px;
+            img {
+                width: 48px;
+                height: 100%;
+                border-radius: 50%;
+                float: left;
+            }
+            .text {
+                float: left;
+                height: 100%;
+                padding-left: 16px;
+                text-align: left;
+                .title {
+                    font-size: 18px;
+                    color: @font-color;
+                    margin: 0;
+                    line-height: 30px;
+                }
+                .time {
+                    font-size: 14px;
+                    color: fade(@font-color, 60%);
+                    margin: 0;
+                    line-height: 18px;
+                }
+            }
+        }
+        .desc {
+            font-size: 16px;
+            color: fade(@font-color, 80%);
+            line-height: 18px;
+            text-align: left;
+            margin-top: 16px;
+        }
+        .keyname {
+            font-size: 14px;
+            color: fade(@font-color, 60%);
+            margin: 0;
+            margin-top: 16px;
+            line-height: 18px;
+            height: 18px;
+            text-align: left;
+        }
+        .keytext {
+            font-size: 14px;
+            color: fade(@font-color, 80%);
+            margin: 0;
+            line-height: 16px;
+            text-align: left;
+        }
+        .footer {
+            height: 50px;
+            line-height: 50px;
+            .colse {
+                margin-left: 12px;
+            }
+        }
+    }
+}
+
+.addNewuserToRole {
+    .ant-modal-body {
+        float: left;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+    }
+    .wrapper-gamelsit {
+        float: left;
+        width: 100%;
+        min-height: 300px;
+        .content {
+            float: left;
+            width: 100%;
+            .ant-checkbox-group {
+                max-height: 380px;
+                overflow-y: auto;
+                .ant-checkbox-group-item {
+                    height: 18px;
+                    min-width: 200px;
+                    line-height: 18px;
+                    margin: 8px;
+                }
+            }
+        }
+    }
+    .showGameList {
+        float: left;
+        height: 100%;
+        width: 100%;
+        .gamelsit {
+            width: 100%;
+            label:first-child {
+                width: 100%;
+            }
+        }
+    }
+    .selectgame {
+        float: left;
+        width: 50%;
+    }
+    .showgame {
+        float: left;
+        width: 50%;
+        height: 100%;
+        padding-left: 30px;
+        .hasSelect {
+            float: left;
+        }
+        div {
+            height: 18px;
+            line-height: 18px;
+            margin: 8px 0;
+            color: fade(@font-color, 80%);
+            span {
+                padding: 10px;
+            }
+            .anticon {
+                cursor: pointer;
+            }
+        }
+        .data-content {
+            float: left;
+            width: 100%;
+            height: 350px;
+            overflow-y: auto;
+        }
+        .btn {
+            float: left;
+            .ant-btn {
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+.contactname {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Lookpermit {
+    .ant-modal-header {
+        padding: 14px 24px;
+        .btn {
+            margin-right: 24px;
+        }
+        .btncopy {
+            color: @button;
+            border: 1px solid @button;
+        }
+    }
+    .ContentText {
+        height: 500px;
+    }
+}
+
+.htdisabled {
+    background-color: fade(@bg-color, 40%);
+}
+
+.htdisabled:hover {
+    background-color: fade(@bg-color, 40%);
+    a {
+        cursor: not-allowed
+    }
+}

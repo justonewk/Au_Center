@@ -1,0 +1,101 @@
+.logo {
+  padding: 1% 0;
+  overflow: hidden;
+}
+.error {
+  color: red;
+}
+.ant-layout .zdy {
+  background: #fff;
+}
+.ant-layout .zdy .leftslider {
+  border-right: 0;
+  background: #fff;
+}
+.ant-layout .zdy a {
+  color: rgba(51, 88, 123, 0.8);
+}
+.ant-layout .zdy .ant-menu-item-selected {
+  background: rgba(31, 141, 237, 0.4);
+  color: #fff;
+}
+.ant-layout .zdy .ant-menu-item-selected a {
+  color: #fff;
+}
+.ant-layout .topslide {
+  border-bottom: 1px solid #e8e8e8;
+}
+.ant-layout .topslide .ant-menu {
+  width: 96%;
+  background-color: #fff;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  color: #33587b;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item {
+  padding: 0;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item span {
+  display: block;
+  float: left;
+  color: #33587b;
+  padding: 0 20px;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item .quit {
+  float: left;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item:hover {
+  border: none;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item-selected {
+  border: none;
+}
+.ant-layout .topslide .ant-menu .ant-menu-item-active {
+  border: none;
+}
+.ant-layout .topslide .ant-menu .updateCacheItem {
+  margin-right: 20px;
+  color: #33587b;
+}
+.ant-layout .topslide .ant-menu .updateCacheItem :hover {
+  color: #1f8ded;
+}
+.ant-layout .contendiv {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.dropname img {
+  margin: 0 12px 0 0;
+}
+.dropname p {
+  color: rgba(51, 88, 123, 0.6);
+  margin: 0px;
+  height: 30px;
+  line-height: 30px;
+}
+.ModifyModal .ant-modal-header {
+  border: none;
+}
+.ModifyModal .ant-modal-header .ant-modal-title {
+  color: #33587b;
+  font-weight: 600;
+}
+.ModifyModal .all {
+  width: 100%;
+}
+.ModifyModal .label {
+  width: 353px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.ModifyModal .label .ant-input {
+  float: right;
+  height: 36px;
+  line-height: 36px;
+  width: 280px;
+}

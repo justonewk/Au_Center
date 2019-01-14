@@ -1,0 +1,185 @@
+@import "variables";
+
+#root{
+  height: 100%;
+  min-width: 1280px;
+//   overflow-x: scroll
+
+}
+.contendiv{
+	.ant-btn-primary{
+	background-color: @button;
+	border-color:@button;
+    }
+}
+
+.normal{
+	color: @succeed
+}
+
+.unnormal{
+	color: @warning
+}
+  b{
+    font-size: 12px;
+    color: red;
+    display: block;
+
+  }
+ .ant-layout-sider{
+ 	float: left;
+ 	height: 100%
+
+ }
+ .ant-layout-content{
+ 	margin: 0px !important;
+ }
+.ant-layout-has-sider {
+	overflow: hidden;
+	height: 100%
+}
+
+.ant-layout-has-sider .ant-layout{
+	width: 89%;
+	float: left;
+	height: 100%
+}
+
+.contentHeader{
+	height: 64px;
+    line-height: 64px;
+    font-size: 24px;
+    padding:0  32px;
+    color: #425879;
+    background-color: #FFFFFF;
+    // border-bottom:1px solid #539BF9;
+}
+.closeBtn{
+	color: @warning !important;
+	border:  1px solid fade(@warning,40%) !important
+}
+.has-error .ant-form-explain{
+	color: @error !important;
+}
+.data-wrapper{
+	float: left;
+	min-height:calc(~"100% - 108px");
+	width: 100%;
+	background: #fff;
+	margin:24px;
+	padding: .5%;
+	border-radius: 4px;
+	position: relative;
+	.left{
+		width: 15%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		
+		.ant-menu-inline{
+			border: none;
+		}
+		
+
+	}
+	.right{
+		width: 82%;
+		float: left;
+		overflow-y: auto;
+		position: relative;
+		margin-right:3%;
+		border-left: 1px solid #e8e8e8;
+		
+	}
+}
+//tab
+.ant-tabs{
+	.ant-tabs-nav {
+		.ant-tabs-ink-bar{
+			display: none !important;
+		}
+       .ant-tabs-tab{
+       	font-size: 18px;
+        color:fade(@button,60%);
+	  }
+	  .ant-tabs-tab-active{
+		 color:@button;
+	  }
+
+	}
+	.ant-tabs-tabpane-active{
+	  	.ant-tabs-tab-active{
+	  		border-bottom: 3px solid #538CE9
+	  	}
+	  }
+	.edit{//编辑按钮
+    border:1px solid rgba(83,140,233,.4);
+    color:rgba(83,140,233,1)
+   }
+	
+}
+.CheckGroup{//多选组
+	.ant-checkbox-wrapper + .ant-checkbox-wrapper{
+		margin-left: 0px;
+	}
+  .ant-checkbox-wrapper{
+  	position: relative;
+  	height: 24px;
+  	line-height: 24px;
+  	font-size: 14px;
+  	margin:5px 24px 5px 0px;
+  	border:1px solid rgba(187,196,207,.4);
+  	 border-radius: 4px ;
+  	  padding:0  ;
+  	  span{
+  	  	padding: 0 7px;
+  	  	height: 24px ;
+  	  	display: block;
+  	  }
+  	 .ant-checkbox{
+  	 	position: absolute;
+  	 	width: 100%;
+  	 	span{
+  	 		opacity: 0;
+  	 	}
+  	 	
+  	 }
+  	 .ant-checkbox-checked+span{
+  	 	background-color: #5557BC;
+  	 	color: #fff;
+  	 	height:24px;
+  	 	border-radius: 4px; 
+  	 	padding-top: 0;
+  	 }
+  	 .ant-checkbox-checked+span:after{
+  	 	content: " X";
+  	 	font-size: 12px;
+  	 }
+  }
+}
+.logo{
+	padding: 0;
+	overflow: hidden;
+	height: 80px;
+	text-align: center;
+	background-color: @button;
+	img{
+		margin-top: 4%;
+	}
+
+}
+  .addNewuserToRole{
+    .Multistagewrapper .wrapper-left .content{
+        height: calc(~"100% - 114px")
+    }
+    }
+@media screen and (max-width: 1300) {
+    .data-wrapper{
+		.left{
+			width: 20%;
+		}
+		.right{
+			width: 77%;
+		}
+	}
+}

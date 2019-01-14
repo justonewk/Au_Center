@@ -1,0 +1,44 @@
+.userRole {
+  overflow: hidden;
+}
+.userRole .showSelectRoleComplete {
+  display: inline;
+}
+.userRole .blue {
+  display: inline;
+  color: #1f8ded;
+  line-height: 5;
+  cursor: pointer;
+}
+.roleBtnNext {
+  margin: 1% 0;
+}
+.roleBtnNext .ant-btn-primary {
+  margin-right: 1%;
+}
+.ant-steps-item-description .wrapper-gamelsit .onceBlue {
+  margin-left: 1%;
+  color: #1f8ded;
+}
+.ant-steps-item-description .wrapper-gamelsit .dim-footer .btn .ant-btn-primary {
+  background-color: #1f8ded;
+  border-color: #1f8ded;
+}
+.ant-steps-item-description .wrapper-gamelsit .dim-footer .bule {
+  color: #1f8ded;
+}
+.addNewUser-wrapper .wrapper-gamelsit .content-data .box .box-top {
+  overflow: hidden;
+}
+.addNewUser-wrapper .wrapper-gamelsit .content-data .box .box-top .okshow {
+  background-color: transparent;
+  font-size: 18px;
+}
+.addNewUser-wrapper .wrapper-gamelsit .content-data .Channewrapper .box-top {
+  overflow: hidden;
+}
+.addNewUser-wrapper .wrapper-gamelsit .content-data .Channewrapper .box-top .Channename {
+  background-color: transparent;
+  font-size: 18px;
+  margin-left: 0;
+}

@@ -1,0 +1,188 @@
+.ChannelManagement {
+  height: 100%;
+}
+.ChannelManagement .tempimg {
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  margin-left: -200px;
+  left: 50%;
+}
+.ChannelManagement .data-wrapper {
+  overflow-y: scroll ;
+  width: 97% ;
+}
+.ChannelManagement .data-wrapper1 {
+  padding-top: 24px;
+}
+.ChannelManagement .ChannelManagementHeader {
+  background-color: #fff;
+}
+.ChannelManagement .ChannelManagementHeader .title {
+  font-size: 24px;
+  color: #33587b;
+  padding-left: 24px;
+  height: 64px;
+  line-height: 64px;
+  margin-bottom: 0;
+}
+.ChannelManagement .ChannelManagementHeader .gameList {
+  padding: 0 24px 24px 24px;
+}
+.ChannelManagement .ChannelManagementHeader .gameList .ant-radio-button-wrapper {
+  color: rgba(51, 88, 123, 0.6);
+  border: none;
+  font-size: 16px;
+}
+.ChannelManagement .ChannelManagementHeader .gameList .ant-radio-button-wrapper:before {
+  display: none;
+}
+.ChannelManagement .ChannelManagementHeader .gameList .ant-radio-button-wrapper-checked {
+  color: #1f8ded;
+  box-shadow: -1px 0 0 0 #fff;
+}
+.ChannelManagement .searchcontent {
+  width: 96%;
+  float: left;
+  margin-top: -20px;
+}
+.ChannelManagement .searchcontent .item {
+  width: 310px;
+  float: left;
+  height: 36px;
+  margin: 8px;
+  color: #33587b;
+}
+.ChannelManagement .searchcontent .item .Input {
+  width: 240px;
+}
+.ChannelManagement .searchcontent .caozuo {
+  height: 36px;
+  float: left;
+  margin: 8px;
+}
+.ChannelManagement .searchcontent .caozuo .ant-btn {
+  margin: 0 16px 0 0;
+}
+.ChannelManagement .searchcontent .czbtn {
+  float: right;
+  height: 36px;
+  margin: 8px;
+}
+.ChannelManagement .searchcontent .czbtn .typetext {
+  padding: 0px;
+  float: right;
+  border: none;
+  color: #1f8ded;
+  margin: 0 0 0 36px;
+  font-size: 16px;
+}
+.ChannelManagement .table {
+  float: left;
+  width: 96%;
+  font-size: 14px;
+}
+.ChannelManagement .table .ant-table-thead th {
+  background-color: rgba(185, 197, 208, 0.4);
+  text-align: left;
+  color: #33587b;
+  padding: 12px 8px;
+  max-width: 310px;
+}
+.ChannelManagement .table .ant-table-body {
+  text-align: center;
+  font-size: 14px;
+}
+.ChannelManagement .table .ant-table-body .ant-table-row:nth-of-type(even) {
+  background: rgba(185, 197, 208, 0.1);
+}
+.ChannelManagement .table .ant-table-body td {
+  text-align: center;
+  padding: 12px 8px;
+  border: none;
+  max-width: 310px;
+  text-align: left;
+}
+.ChannelManagement .table .ant-table-body td .ant-table-row-collapsed {
+  float: left;
+  text-align: center;
+  color: #1f8ded;
+}
+.ChannelManagement .table .ant-table-body td .stop {
+  color: #f94673;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell {
+  max-height: 80px;
+  min-width: 80px;
+  min-height: 32px;
+  position: relative;
+  display: inline-block;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-text-wrapper {
+  padding: 5px ;
+  max-width: 300px;
+  max-height: 80px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .ant-select {
+  max-width: 160px;
+  max-height: 80px;
+  min-width: 120px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .ant-select .ant-select-selection--multiple {
+  overflow-y: auto;
+  max-height: 80px;
+  height: auto;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .ant-input {
+  max-width: 200px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .ant-calendar-picker {
+  max-width: 120px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .idfirst {
+  float: left;
+  margin: 0;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-input-wrapper .idlast {
+  max-width: 100px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-icon {
+  display: none;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-icon,
+.ChannelManagement .table .ant-table-body td .editable-cell .editable-cell-icon-check {
+  position: absolute;
+  right: -30px;
+  width: 30px;
+  cursor: pointer;
+  line-height: 32px;
+}
+.ChannelManagement .table .ant-table-body td .editable-cell:hover .editable-cell-icon {
+  display: inline-block;
+}
+.ChannelManagement .table .ant-table-body .tablesuccuss {
+  color: #00d578;
+}
+.ChannelManagement .table .ant-table-body .tableyic {
+  color: #f8881f;
+}
+.ChannelManagement .table .ant-table-body .tableerror {
+  color: #f94673;
+}
+.addChannel .title {
+  font-size: 18px;
+  color: #33587b;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+.addChannel .ant-form-item-label {
+  text-align: left;
+}
+.addChannel .ant-form-item-label label {
+  text-align: left;
+  color: #33587b;
+}
+.addChannel .btn {
+  float: right;
+  margin-left: 12px;
+}

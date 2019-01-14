@@ -1,0 +1,73 @@
+[{
+	"gid": "14",
+	"code": "cy",
+	"name": "尘缘"
+}, {
+	"gid": "10",
+	"code": "bingqi",
+	"name": "兵器少女"
+}, {
+	"gid": "2",
+	"code": "chaoneng",
+	"name": "超能大陆"
+}, {
+	"gid": "3",
+	"code": "ddz",
+	"name": "斗地主"
+}, {
+	"gid": "15",
+	"code": "xlmkz",
+	"name": "新龙门客栈"
+}, {
+	"gid": "16",
+	"code": "csj",
+	"name": "长生诀"
+}, {
+	"gid": "17",
+	"code": "xdny",
+	"name": "心动女友"
+}, {
+	"gid": "18",
+	"code": "bingqi_tw",
+	"name": "兵器繁体"
+}, {
+	"gid": "7",
+	"code": "chaoneng_tw",
+	"name": "超能港台"
+}, {
+	"gid": "8",
+	"code": "chaoneng_en",
+	"name": "超能英文[已下线]"
+}, {
+	"gid": "9",
+	"code": "chaoneng_tai",
+	"name": "超能泰国"
+}, {
+	"gid": "12",
+	"code": "chaoneng_zd",
+	"name": "超能国际(卓动)"
+}, {
+	"gid": "13",
+	"code": "chaoneng_rd",
+	"name": "超能睿德"
+}, {
+	"gid": "1",
+	"code": "lwsg",
+	"name": "龙纹大陆"
+}, {
+	"gid": "6",
+	"code": "lwsg_tx",
+	"name": "龙纹腾讯"
+}, {
+	"gid": "11",
+	"code": "lwsg_bt",
+	"name": "龙纹BT版"
+}, {
+	"gid": "4",
+	"code": "lwsg_tw",
+	"name": "龙纹繁体[已下线]"
+}, {
+	"gid": "5",
+	"code": "lwsg_jp",
+	"name": "龙纹日本[已下线]"
+}]

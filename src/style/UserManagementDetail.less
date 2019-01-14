@@ -1,0 +1,282 @@
+@import "variables";
+.userlist {
+    padding: 0px 1%;
+    position: relative;
+    .option-edit {
+        text-align: right;
+        right: 24px;
+    }
+    .addAdministrator {
+        display: inline-block;
+        float: right;
+        margin-right: 1%;
+        color: @button;
+        cursor: pointer;
+    }
+    .top {
+
+        .name {
+            font-size: 18px;
+            color: @font-color;
+            font-weight: 800;
+        }
+        .samll {
+            font-size: 14px;
+            color: fade(@font-color, 60%);
+        }
+        .eidt {
+            border-color: @button;
+            color: @button;
+            margin-right: 5%;
+        }
+        .colse {
+            border-color: @warning;
+            color: @warning
+        }
+        .user_adminresetpwd{
+                display: inline-block;
+                margin-right: 4%;
+                
+        }
+    }
+    .data {
+        .ant-col-xxl-offset-1 {
+            margin-left: 0px;
+        }
+    }
+
+    .UserDetailRole {
+        .data {
+            padding: 1% 0;
+            .itemrow {
+                width: 100%;
+                margin: 1% 0;
+            }
+        }
+        .Pagination-zdy {
+            overflow: hidden;
+            .ant-pagination {
+                float: right;
+                min-width: 200px;
+                margin-right: -8px;
+            }
+        }
+    }
+    .userDetailBase {
+
+        .userbase-wrapper {
+            .nextshow {
+                position: absolute;
+                top: 0;
+                right: 0;
+               margin-right: 203px;
+            }
+            .ant-form-item-control-wrapper {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.userlistbottm {
+    // padding-left: 0;
+}
+
+.addNewuserToUserlist {
+    .modeCancel {
+        float: left;
+        margin-left: 89%;
+    }
+    .addnewrole {
+        .role-wrapper {
+            .ant-row {
+                margin-bottom: 1%;
+                overflow: hidden;
+                .ant-col-xxl-3 {
+                    width: 21.5%;
+                }
+            }
+        }
+        .userlist-top-item {
+            margin-top: 26%;
+        }
+        .modeSave {
+            position: absolute;
+            left: 76%;
+            .ant-btn {
+                padding: 0 15px !important;
+            }
+        }
+    }
+}
+
+.UseDetailGame {
+    .top {
+        overflow: hidden;
+    }
+
+    .gamenamebtn {
+        margin-left: 1%;
+        background-color: fade( @font-color, 40%);
+        color: fade( @font-color, 80%);
+        &:hover {
+            border-color: fade( @font-color, 40%);
+        }
+        ;
+    }
+    .gamenamebtn:first-child {
+        margin-left: 0;
+    }
+    .addgame {
+        float: right;
+        margin-right: 4.5%;
+        color: @button;
+        cursor: pointer;
+    }
+    .activebtn {
+        background-color: @button;
+        color: @baise;
+    }
+
+    .GameContent {
+        .show-chaneel,
+        .show-role {
+            overflow: hidden;
+            border: 1px solid fade(@font-color, 40%);
+            margin: 1% 0;
+            border-radius: 4px;
+            .top {
+
+                padding: .5%;
+                .left {
+                    float: left;
+                    width: 60%;
+                    font-size: 18px;
+                    color: fade(@font-color, 80%);
+                    font-weight: 800;
+                }
+                .right {
+                    float: left;
+                    width: 37%;
+                    text-align: right;
+                    border: none;
+                    color: @button;
+                    margin-right: 1%;
+                    cursor: pointer;
+                }
+            }
+            div {
+                overflow: hidden;
+            }
+            .channeName {
+                display: inline-block;
+                float: left;
+                background-color: fade( @font-color, 40%);
+                color: fade( @font-color, 80%);
+                margin-left: 1%;
+                margin-top: 1%;
+                margin-bottom: 1%;
+                padding: .5% 1%;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.modifyChane {
+    .Channemodel {
+        .wrapper {
+            width: 100%;
+            .showSelect{
+                height: 100%;
+                .agents{
+                    height: calc(~"100% - 36px");
+                    overflow-y: scroll
+                }
+                .footer{
+                    margin: 2%;
+                    text-align: right;
+                    .ant-btn-primary{
+                        margin-right: 2%;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.noChannel-wrapper,.norole-wrapper{
+        color: fade(@font-color,60%);
+        padding-left: .5%;
+        
+
+    }
+
+.Details {
+    .userlist {
+        padding: 0 2%;
+    }
+    .ant-tabs-tabpane {
+        .userlist {
+            padding: 0;
+        }
+    }
+}
+
+// 	.userlistbottm{
+// 		.tablist{
+// 			.ant-tabs-nav{
+// 			.ant-tabs-tab{
+// 				padding: 12px 0px;
+// 	}
+// }
+// 	}
+// }
+.ant-tabs-nav .ant-tabs-tab:frist-child {
+    padding: 12px 0;
+}
+
+.Multistagewrapper {
+    overflow: hidden;
+    margin-bottom: 1%;
+    .wrapper-right,
+    .wrapper-left {
+        float: left;
+        width: 50%
+    }
+}
+.user_adminresetpwd_model{
+    .data{
+        overflow: hidden;
+        span,input{
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+        span{
+            width:10%;
+            line-height: 34px;
+        }
+    }
+}
+.addUserModifyBatch{
+    .showgame{
+        div{
+            height: auto;
+        }
+        .data-content{
+            height:403px;
+        }
+        .btn{
+            float: left;
+            position: relative;
+            height: 36px;
+            overflow: hidden;
+            .ant-btn{
+                width: 83px;
+
+            }
+        }
+    } 
+
+}

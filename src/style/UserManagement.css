@@ -1,0 +1,676 @@
+.userlist .itemrow {
+  border: 1px solid rgba(185, 197, 208, 0.4);
+  border-radius: 4px;
+  margin: 1% 1%;
+  width: 98%;
+}
+.userlist .title {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+  margin-left: 2%;
+}
+.left .subsysLeftTop {
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  color: #33587b;
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+}
+.left .subsysLeftTop .name {
+  text-align: left;
+  float: left;
+  padding: 0 24px;
+}
+.left .subsysLeftTop .addsub {
+  float: right;
+  text-align: right;
+  line-height: 70px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+.left .leftslider .ant-dropdown-link {
+  position: absolute;
+  right: 4%;
+  color: #33587b;
+  z-index: 9;
+  top: 0px;
+}
+.left .ant-menu-submenu-arrow {
+  display: none;
+}
+.left .ant-menu {
+  color: #33587b;
+  background-color: #fff;
+  overflow: hidden;
+}
+.left .ant-menu a {
+  color: #33587b;
+}
+.left .ant-menu .ant-menu-submenu-select {
+  background-color: #e6f7ff;
+  color: rgba(31, 141, 237, 0.8);
+}
+.left .ant-menu .ant-menu-submenu-select .ant-menu-submenu-title {
+  border-right: 4px solid rgba(31, 141, 237, 0.8);
+}
+.userWrapper {
+  overflow: hidden;
+  height: auto;
+}
+.UserManagementHeader-wraper {
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(51, 88, 123, 0.4);
+}
+.UserManagementHeader-wraper .title {
+  font-size: 24px;
+  color: #33587b;
+  line-height: 50px;
+  margin-left: 2%;
+}
+.UserManagementHeader-wraper .list ul {
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 1%;
+}
+.UserManagementHeader-wraper .list .item {
+  color: rgba(51, 88, 123, 0.8);
+  font-size: 16px;
+  width: 96px;
+  float: left;
+  text-align: center;
+  margin: 1% .5% 0% .5%;
+  padding: .5% .5%;
+  cursor: pointer;
+  list-style: none;
+}
+.UserManagementHeader-wraper .list .active {
+  color: #1f8ded;
+  border-bottom: 2px solid #1f8ded;
+}
+.data-wrapper .userWrapper-inline-right .tempimg {
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  margin-left: -200px;
+  left: 50%;
+}
+.userbase-wrapper .ant-col-lg-8 {
+  height: 103px;
+}
+.userbase-wrapper .ant-col-lg-8 .ant-form-item-label label {
+  color: rgba(51, 88, 123, 0.6);
+}
+.userbase-wrapper .ant-col-lg-8 .ant-form-item-control-wrapper {
+  width: 80%;
+  color: rgba(51, 88, 123, 0.8);
+}
+.userbase-wrapper .ant-col-lg-8 .ant-form-item-control-wrapper .ant-input {
+  color: inherit;
+}
+.userbase-wrapper .ant-col-lg-8 .ant-form-item-control-wrapper .ant-form-item-children p {
+  font-size: 16px;
+}
+.right .userlist-top {
+  margin: 2%;
+  padding-bottom: 2%;
+  margin-top: 1%;
+  border-bottom: 1px solid rgba(51, 88, 123, 0.4);
+  overflow: hidden;
+}
+.right .userlist-top .userlist-top-item {
+  margin: 0 0;
+  float: left;
+}
+.right .userlist-top .titleserch {
+  float: right;
+}
+.right .userlist-top .userlist-top-item-disable {
+  border-color: rgba(248, 136, 31, 0.4);
+  color: rgba(248, 136, 31, 0.8);
+}
+.right .Pagination-zdy {
+  overflow: hidden;
+}
+.right .Pagination-zdy .ant-pagination {
+  float: right;
+  min-width: 200px;
+  margin-right: 4px;
+}
+.right .AddNewUser-wrapper {
+  padding: 2%;
+}
+.right .AddNewUser-wrapper .path {
+  font-size: 16px;
+}
+.right .AddNewUser-wrapper .path span {
+  padding: 0 .1%;
+}
+.right .AddNewUser-wrapper .path .nowpath {
+  font-size: 16px;
+  color: #1f8ded;
+}
+.right .AddNewUser-wrapper .path .leadfile {
+  font-size: 16px;
+  color: #1f8ded;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+.right .AddNewUser-wrapper .path .leadfile .Uploadshow {
+  color: #1f8ded;
+  display: inline-block;
+}
+.right .AddNewUser-wrapper .path .leadfile .Uploadshow .ant-upload.ant-upload-select {
+  width: 60px;
+  color: #1f8ded;
+}
+.right .AddNewUser-wrapper .path .leadfile .Uploadshow .ant-upload.ant-upload-select .ant-upload {
+  color: #1f8ded;
+}
+.right .AddNewUser-wrapper .name {
+  font-size: 18px;
+  color: #33587b;
+  font-weight: 800;
+  margin: 1% 0;
+  overflow: hidden;
+}
+.right .AddNewUser-wrapper .name .cancel {
+  float: right;
+}
+.right .AddNewUser-wrapper .ant-steps-item-description .ant-row {
+  margin: auto 0 !important;
+}
+.right .AddNewUser-wrapper .ant-steps-item-description .Multistagewrappe {
+  margin-bottom: 1%;
+}
+.right .AddNewUser-wrapper .ant-steps-item-description .Multistagewrappe .wrapper-left .content {
+  height: calc(100% - 150px);
+}
+.right .AddNewUser-wrapper .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #f8881f;
+  border-color: #f8881f;
+}
+.right .AddNewUser-wrapper .ant-steps-item-process .ant-steps-item-content .ant-steps-item-title {
+  font-size: 18px;
+  color: #33587b;
+}
+.right .AddNewUser-wrapper .ant-steps-item-finish .ant-steps-item-content .ant-steps-item-title {
+  font-size: 18px;
+  color: #33587b;
+}
+.right .AddNewUser-wrapper .ant-steps-item-finish .ant-steps-item-icon {
+  border-color: #f8881f;
+}
+.right .AddNewUser-wrapper .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #f8881f;
+}
+.right .AddNewUser-wrapper .ant-steps-item-finish > .ant-steps-item-tail:after {
+  background-color: #f8881f;
+}
+.right .AddNewUser-wrapper .from-wraper .ant-btn {
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.right .role-wrapper .labe {
+  line-height: 39.999px;
+}
+.right .role-wrapper .roleselect {
+  position: relative;
+}
+.right .role-wrapper .roleselect .ant-select {
+  position: absolute;
+  z-index: 99;
+}
+.right .role-wrapper .userlist-top-item {
+  margin-top: 24%;
+  background-color: #1f8ded;
+}
+.right .Channemodel .wrapper {
+  position: relative;
+  width: 60%;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  height: 448px;
+  border-radius: 4px;
+  padding: 1%;
+  border: 1px solid rgba(51, 88, 123, 0.4);
+}
+.right .Channemodel .wrapper .showcontent {
+  overflow: hidden;
+  float: left;
+  width: 50%;
+}
+.right .Channemodel .wrapper .showcontent .ant-input-search {
+  float: left;
+}
+.right .Channemodel .wrapper .showcontent .showtree {
+  float: left;
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
+.right .Channemodel .wrapper .showcontent .showtree .ant-tree li {
+  text-align: left;
+}
+.right .Channemodel .wrapper .showSelect {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-left: 24px;
+}
+.right .Channemodel .wrapper .showSelect .agents {
+  height: calc(100% - 36px);
+  overflow-y: scroll;
+  color: rgba(51, 88, 123, 0.8);
+  position: relative;
+}
+.right .Channemodel .wrapper .showSelect .agents .agentsCotnent {
+  overflow: hidden;
+}
+.right .Channemodel .wrapper .showSelect .agents .agentsCotnent .showagengt {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+.right .Channemodel .wrapper .showSelect .agents .agentsCotnent .showagengt .anticon {
+  float: right;
+  padding-right: 6%;
+  cursor: pointer;
+}
+.right .Channemodel .wrapper .showSelect .footer {
+  margin: 2%;
+  text-align: right;
+}
+.right .Channemodel .wrapper .showSelect .footer .ant-btn-primary {
+  margin-right: 2%;
+}
+.right .content {
+  overflow: hidden;
+}
+.right .showGameList {
+  overflow: hidden;
+  width: 720px;
+  height: 448px;
+}
+.right .showGameList .selectgame {
+  width: 50%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  float: left;
+}
+.right .showGameList .selectgame .ant-checkbox-group {
+  width: 100%;
+}
+.right .showGameList .selectgame .ant-checkbox-group .ant-checkbox-group-item {
+  width: 100%;
+}
+.right .showGameList .showgame {
+  width: 50%;
+  float: left;
+  opacity: 1;
+  color: rgba(51, 88, 123, 0.8);
+  border-left: 1px solid rgba(51, 88, 123, 0.4);
+}
+.right .showGameList .showgame .data-content {
+  height: 378px;
+  padding: 5px;
+}
+.right .showGameList .showgame .data-content .item {
+  width: 80%;
+  display: inline-block;
+}
+.right .showGameList .showgame .btn {
+  text-align: right;
+  overflow: hidden;
+  float: left;
+  line-height: 12px;
+  height: 32px;
+  width: 100%;
+}
+.right .showGameList .showgame .btn .ant-btn {
+  margin-right: 2%;
+}
+.right .content-data {
+  overflow: hidden;
+}
+.right .content-data .showGameok,
+.right .content-data .box {
+  overflow: hidden;
+}
+.right .content-data .showGameok .okshow,
+.right .content-data .box .okshow {
+  float: left;
+  padding: .5%;
+  margin: 0 1%;
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.8);
+  background-color: rgba(51, 88, 123, 0.4);
+  border-radius: 4px;
+}
+.right .content-data .box {
+  border: 1px solid rgba(51, 88, 123, 0.4);
+  padding: 2%;
+  margin: 1%;
+  border-radius: 4px;
+}
+.right .content-data .Channewrapper {
+  border: 1px solid rgba(51, 88, 123, 0.4);
+  padding: 1%;
+  margin: 1%;
+  border-radius: 4px;
+}
+.right .content-data .Channewrapper .wrapper-gamelsit {
+  overflow: hidden;
+}
+.right .content-data .Channewrapper .wrapper-gamelsit .content-data {
+  overflow: hidden;
+}
+.right .content-data .Channewrapper .wrapper-gamelsit .content-data .showGameok {
+  float: left;
+  margin: 1%;
+}
+.right .content-data .reload-writer {
+  display: inline-block;
+  padding: .5%;
+}
+.right .content-data .blue {
+  color: #1f8ded;
+  padding: .5%;
+  cursor: pointer;
+}
+.right .footer {
+  overflow: hidden;
+}
+.right .footer .btn,
+.right .footer .setgamerole,
+.right .footer .pre {
+  float: left;
+  margin: 2%;
+}
+.right .footer .bule {
+  color: #1f8ded;
+}
+.right .footer .setgamerole {
+  border-color: #1f8ded;
+}
+.right .footer .pre {
+  border: none;
+}
+.right .dim-footer {
+  color: rgba(51, 88, 123, 0.5);
+}
+.right .dim-footer .btn,
+.right .dim-footer .setgamerole,
+.right .dim-footer .pre {
+  float: left;
+  margin: 2%;
+}
+.right .dim-footer .btn {
+  color: #fff;
+}
+.right .dim-footer .btn .ant-btn-primary {
+  border-color: rgba(51, 88, 123, 0.5);
+  background-color: rgba(51, 88, 123, 0.5);
+}
+.right .dim-footer .pre {
+  border: none;
+}
+.right .department-wraper-box {
+  width: 96%;
+  margin: 1% auto;
+}
+.right .department-wraper-box .item {
+  width: 100%;
+  border: 1px solid #BBC4CE;
+  border-radius: 4px;
+  color: rgba(66, 88, 121, 0.6);
+  font-size: 12px;
+  cursor: pointer;
+  margin: 1% 0;
+}
+.right .department-wraper-box .item .top {
+  font-size: 16px;
+  padding: 6% 5%;
+}
+.right .department-wraper-box .item .top .department {
+  font-weight: 800;
+  color: #425879;
+}
+.right .department-wraper-box .item .bottom {
+  padding: 0 4% 2% 4%;
+}
+.right .department-wraper-box .item .bottom span {
+  padding: 0 1%;
+}
+.right .department-wraper-box .item:hover {
+  border-color: rgba(31, 141, 237, 0.4);
+  transform: translateY(-3px);
+}
+.addNewuserToUserlist {
+  overflow: hidden;
+}
+.addNewuserToUserlist .showGameList .selectgame .gamelsit {
+  overflow-y: scroll;
+  height: 410px;
+}
+.addNewuserToUserlist .showGameList .selectgame .gamelsit .ant-checkbox-group {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+}
+.addNewuserToUserlist .showGameList .selectgame .gamelsit .ant-checkbox-group .ant-checkbox-group-item {
+  width: 100%;
+}
+.addNewuserToUserlist .showGameList .showgame .data-content .anticon {
+  display: inline-block;
+  float: right;
+  margin-right: 3%;
+  cursor: pointer;
+}
+.addNewuserToUserlist .showGameList .showgame .btn {
+  float: right;
+}
+.addNewuserToUserlist .ant-modal-body .Multistagewrapper .wrapper-left .contentPar {
+  height: calc(100% - 115px);
+}
+.Multistagewrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(51, 88, 123, 0.2);
+  border-radius: 4px;
+  height: 520px;
+}
+.Multistagewrapper .wrapper-right,
+.Multistagewrapper .wrapper-left {
+  width: 50%;
+  float: left;
+  padding: 2% 0;
+}
+.Multistagewrapper .wrapper-right .MultistageCheckItem,
+.Multistagewrapper .wrapper-left .MultistageCheckItem {
+  height: 100%;
+}
+.Multistagewrapper .wrapper-right .MultistageCheckItem > div,
+.Multistagewrapper .wrapper-left .MultistageCheckItem > div {
+  overflow: hidden;
+  margin-top: 4%;
+}
+.Multistagewrapper .wrapper-right .MultistageCheckItem > div:first-child,
+.Multistagewrapper .wrapper-left .MultistageCheckItem > div:first-child {
+  margin-top: 0;
+}
+.Multistagewrapper .wrapper-right .MultistageCheckItem .ant-checkbox-wrapper,
+.Multistagewrapper .wrapper-left .MultistageCheckItem .ant-checkbox-wrapper {
+  margin-left: 0px;
+  display: inline-block;
+  min-width: 52%;
+}
+.Multistagewrapper .wrapper-right .MultistageCheckItem .ant-checkbox-wrapper span,
+.Multistagewrapper .wrapper-left .MultistageCheckItem .ant-checkbox-wrapper span {
+  color: #33587b;
+}
+.Multistagewrapper .wrapper-right {
+  padding: 2%;
+}
+.Multistagewrapper .wrapper-right h3 {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.4);
+}
+.Multistagewrapper .wrapper-left {
+  height: 100%;
+  border-left: 1px solid rgba(51, 88, 123, 0.2);
+}
+.Multistagewrapper .wrapper-left .number {
+  padding: 4%;
+  color: #1f8ded;
+}
+.Multistagewrapper .wrapper-left .contentPar {
+  padding: 0 0 0 24px;
+  height: calc(100% - 155px);
+  overflow: hidden;
+}
+.Multistagewrapper .wrapper-left .contentPar .content {
+  height: 100%;
+  overflow-y: auto;
+  width: calc(100% + 10px);
+}
+.Multistagewrapper .wrapper-left .contentPar .content > div {
+  overflow: hidden;
+  margin-top: 4%;
+}
+.Multistagewrapper .wrapper-left .contentPar .content > div:first-child {
+  margin-top: 0;
+}
+.Multistagewrapper .wrapper-left h3 {
+  color: rgba(51, 88, 123, 0.4);
+  font-size: 14px;
+}
+.Multistagewrapper .wrapper-left .DelItem .anticon {
+  display: inline-block;
+  margin-right: 3%;
+  border-radius: 50%;
+  padding: .5%;
+  float: right;
+  background-color: rgba(51, 88, 123, 0.2);
+  cursor: pointer;
+}
+.Multistagewrapper .wrapper-left .DelItem div {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  color: #33587b;
+}
+.Multistagewrapper .wrapper-left .MultistageCheckItem .footer {
+  padding: 2%;
+  text-align: right;
+  box-shadow: 0px 0px 4px 0px rgba(51, 88, 123, 0.4);
+}
+.Multistagewrapper .wrapper-left .MultistageCheckItem .footer .ant-btn-primary {
+  margin-right: 4%;
+}
+.MultistageCheckBoxs .ant-tabs-content {
+  padding: 2% 0;
+  padding-top: 0;
+}
+.MultistageCheckBoxs .ant-tabs.ant-tabs-card .ant-tabs-bar {
+  border-bottom: none;
+}
+.MultistageCheckBoxs .ant-tabs.ant-tabs-card .ant-tabs-bar .ant-tabs-nav-container {
+  height: auto;
+}
+.MultistageCheckBoxs .ant-tabs-bar {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+.MultistageCheckBoxs .ant-tabs-bar .ant-tabs-nav-container {
+  height: auto;
+}
+.MultistageCheckBoxs .ant-tabs-bar .ant-tabs-nav {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.MultistageCheckBoxs .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab {
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin: 3px 1px;
+  color: rgba(51, 88, 123, 0.6);
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 0 6px;
+}
+.MultistageCheckBoxs .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab-active {
+  color: #1f8ded;
+  padding-bottom: 0px;
+}
+.MultistageCheckBoxs .ant-tabs-tabpane-active {
+  height: 380px;
+  overflow: hidden;
+}
+.MultistageCheckBoxs .ant-tabs-tabpane-active .panPar {
+  width: calc(100% + 10px);
+  height: 380px;
+  overflow-y: auto;
+}
+.showSelectRole {
+  overflow: hidden;
+}
+.showSelectRole .item-col {
+  background-color: rgba(0, 213, 120, 0.8);
+  color: #fff;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 4px;
+  overflow: hidden;
+  float: left;
+}
+.showSelectRole .item-col .itemlist-wrapper {
+  float: left;
+  margin: 0 1%;
+}
+.showSelectRole .item-col .itemlist {
+  display: inline-block;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-right: 1px solid;
+}
+.showSelectRole .item-col .itemlist:nth-child(3) {
+  border-right: none;
+}
+.showSelectRole .item-col .itemlist:last-child {
+  border-right: none;
+}
+.showSelectRole .item-col .itemlist .anticon {
+  cursor: pointer;
+}
+.showSelectRoleComplete {
+  overflow: hidden;
+}
+.showSelectRoleComplete .item-col {
+  background-color: rgba(51, 88, 123, 0.4);
+  color: rgba(51, 88, 123, 0.8);
+  margin: 1%;
+  padding: 1%;
+  border-radius: 4px;
+  overflow: hidden;
+  float: left;
+}
+.showSelectRoleComplete .item-col .itemlist {
+  display: inline-block;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-right: 1px solid;
+}
+.showSelectRoleComplete .item-col .itemlist:last-child {
+  border-right: none;
+}

@@ -1,0 +1,155 @@
+@import "variables";
+.AddNewRole{
+	.addroletitle{
+		font-size: 16px;
+		margin:0;
+		color: fade(@font-color,60%);
+		height: 50px;
+		line-height: 50px;
+		span{
+			color:@button;
+		}
+
+	}
+	h2{
+		font-size: 18px;
+		color:@font-color;
+	}
+	.ant-steps{
+		width: 80%;
+		margin-top: 30px;
+		margin-left: 56px;
+		
+		.item{
+			float: left;
+			width: 100%;
+			color: @font-color;
+			font-size: 14px;
+			margin-bottom: 15px;
+			.name{
+				width: 100%;
+				float: left;
+				height: 30px;
+				margin: 0;
+				line-height: 30px;
+			}
+			.text{
+				float: left;
+				width: 260px;
+				height: 36px;
+				margin: 0;
+				color:fade(@font-color,60%) ;
+			}
+			.err{
+			   border:1px solid #f5222d;
+               box-shadow: 0 0 0;
+			}
+			.errtips{
+            float: left;
+            color: #f5222d !important;
+            font-size: 12px !important;
+            line-height: 36px;
+          }
+		}
+		 .ant-steps-item-icon {
+		    width: 34px;
+		    height: 34px;
+		    line-height: 34px;
+		    text-align: center;
+		    border-radius: 34px;
+		    font-size: 18px;
+		}
+		 .ant-steps-item-tail {
+			    position: absolute;
+			    left: 16px;
+			    top: 0;
+			    padding: 36px 0 6px;
+			}
+	   >.ant-steps-item > .ant-steps-item-tail::after {
+                  width: 2px;
+          }
+           .ant-steps-item-title{
+				font-size: 18px;
+				height: 25px;
+				line-height: 25px;
+			    }
+			.ant-steps-item-description{
+					.title{
+						font-size: 14px;
+						height: 20px;
+					   line-height: 20px;
+					   margin-bottom:24px;
+					}
+					.marginB30{
+			         margin:10px 0 30px 0;
+		            }
+		            .checkList{
+		            	float: left;
+		            	width: 100%;
+		            	.checkname{
+		            		margin:0;
+		            		width: 100%;
+		            		height: 20px;
+		            		line-height: 20px;
+		            	
+		            		font-size: 14px;
+		            		color:fade(@font-color,60%) ;
+		            	}
+		            }
+		            .typeText{
+		            	margin: 0 24px;
+		            	border:none;
+		            	color: @button;
+		            }
+				}
+        .ant-steps-item-process{
+          	 .ant-steps-item-title{
+				color: @font-color;
+			    }
+			.ant-steps-item-description{
+					.title{
+						color:fade(@font-color,60%) ;
+					}
+				}
+          	.ant-steps-item-icon{
+          		background-color: @warning;
+          		border-color: @warning
+          	}
+          	>.ant-steps-item-tail:after{
+			background-color: @warning ;
+		   };
+          }
+          .ant-steps-item-wait{
+              .ant-steps-item-icon{
+          		background-color: fade(@bg-color,40%);
+          		border-color: fade(@bg-color,40%);
+          		>.ant-steps-icon{
+          			color: #fff;
+          		}
+          	  }
+          	   .ant-steps-item-title{
+				color: fade(@font-color,40%);
+			   }
+			.ant-steps-item-description{
+				  .title{
+						color:fade(@font-color,24%) ;
+					}
+				}
+          }
+	  .ant-steps-item-finish{
+			.ant-steps-item-icon{
+					border-color:fade(@warning,100%) ;
+					background-color: @warning;
+					>.ant-steps-icon{
+
+						color: #fff ;
+					}
+					
+				   }
+			>.ant-steps-item-tail:after{
+			background-color: @warning ;
+		   };
+	  } 
+
+	}
+}

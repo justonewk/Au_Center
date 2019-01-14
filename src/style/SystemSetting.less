@@ -1,0 +1,61 @@
+@import "variables";
+.SystemSetting{
+   height: 100%;
+   float: left;
+   width: 100%;
+	.data-wrapper{
+
+		.settingGroup{
+			width: 100%;
+			float: left;
+			.settingItem{
+				width: 148px;
+				height: 168px;
+				margin:24px 40px 0 0;
+				float: left;
+				img{
+					width: 100%;
+				}
+				.ant-card-body{
+					padding: 0
+				}
+				.ant-card-meta-title{
+					text-align: center;
+				    width: 100%;
+				    margin:0px;
+				    color: @font-color
+				}
+			}
+		}
+	}
+}
+.JsonModal{
+	.ant-modal-body{
+		padding-bottom: 12px;
+	}
+	.textdiv{
+		height: 346px;
+		overflow-y: hidden;
+		border-top:1px solid fade(@font-color,40%);
+		border-bottom:1px solid fade(@font-color,40%);
+		.ContentText{
+			height: auto;
+			overflow-y: auto;
+			width: 462px;
+			border: none;
+			min-height: 100%;
+		}
+	}
+	.ant-modal-footer{
+		border:none;
+		padding-top: 0
+	}
+	.errorTip{
+		margin: 0;
+		height: 30px;
+		color: @error;
+		text-align: center;
+		color: 14px;
+		line-height: 30px;
+	}
+}

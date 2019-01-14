@@ -1,0 +1,796 @@
+@import "variables";
+.userlist {
+    .itemrow {
+        border: 1px solid fade(@bg-color, 40%);
+        border-radius: 4px;
+        margin: 1% 1%;
+        width: 98%;
+    }
+    .title {
+        font-size: 14px;
+        color: fade(@font-color, 60%);
+        margin-left: 2%;
+    }
+}
+
+.left {
+
+    .subsysLeftTop {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        color: @font-color;
+        height: 70px;
+        line-height: 70px;
+        font-weight: bold;
+        .name {
+            text-align: left;
+            float: left;
+            padding: 0 24px;
+        }
+        .addsub {
+            float: right;
+            text-align: right;
+
+            line-height: 70px;
+            padding: 0 24px;
+            cursor: pointer;
+        }
+    }
+
+    .leftslider {
+        .ant-dropdown-link {
+            position: absolute;
+            right: 4%;
+            color: @font-color;
+            z-index: 9;
+            top: 0px;
+        }
+    }
+    .ant-menu-submenu-arrow {
+        display: none;
+    }
+    .ant-menu {
+        color: @font-color;
+        background-color: @baise;
+        overflow: hidden;
+        a {
+            color: @font-color;
+        }
+        .ant-menu-submenu-select {
+            background-color: #e6f7ff;
+            color: fade(@button,80%) ;
+           
+            .ant-menu-submenu-title{
+                border-right: 4px solid fade(@button,80%); 
+            }
+        } 
+        // .ant-menu-submenu-open{
+        //  background-color: fade(@button,40%);
+        //  color:@baise ;
+
+        // }
+        // .ant-menu-submenu-selected{
+        // background-color: inherit;
+        //  color:inherit;
+        // }
+        // .ant-menu-submenu-active{
+        //  color:@baise ;
+        // }
+        // .ant-menu-item-selected{
+        //  color:@baise ;
+        //  background-color: fade(@button,40%);
+        // }
+    }
+}
+
+.userWrapper {
+    overflow: hidden;
+    height: auto;
+}
+
+.UserManagementHeader-wraper {
+    background-color: @baise;
+    box-shadow: 0px 0px 4px 0px fade(@font-color, 40%);
+    .title {
+        font-size: 24px;
+        color: @font-color;
+        line-height: 50px;
+        margin-left: 2%;
+    }
+    .list {
+
+        ul {
+            overflow: hidden;
+            margin-bottom: 0;
+            margin-left: 0;
+            padding-left: 1%;
+        }
+        .item {
+            color: fade(@font-color, 80%);
+            font-size: 16px;
+            width: 96px;
+            float: left;
+            text-align: center;
+            margin: 1% .5% 0% .5%;
+            padding: .5% .5%;
+            cursor: pointer;
+            list-style: none;
+        }
+        .active {
+            color: @button;
+            border-bottom: 2px solid @button;
+        }
+    }
+}
+.data-wrapper{
+    .userWrapper-inline-right{
+        .tempimg {
+            width: 400px;
+            margin: auto;
+            position: absolute;
+            margin-left: -200px;
+            left: 50%;
+        }
+    }
+}
+// 用户编辑通用过的
+.userbase-wrapper {
+            .ant-col-lg-8 {
+               height: 103px;
+               .ant-form-item-label{
+                   label{
+                color: fade( @font-color,60%);}
+            }
+            .ant-form-item-control-wrapper{
+                width: 80%;
+                 color: fade( @font-color,80%);
+                 .ant-input{
+                     color: inherit
+                 }
+                 .ant-form-item-children{
+                     p{
+                         font-size: 16px;
+                     }
+                 }
+            }
+            }
+            
+        }
+
+.right {
+
+    .userlist-top {
+
+        margin: 2%;
+        padding-bottom: 2%;
+        margin-top: 1%;
+        border-bottom: 1px solid fade(@font-color, 40%);
+        overflow: hidden;
+        .userlist-top-item {
+            margin: 0 0;
+            float: left;
+        }
+        .titleserch{
+            float: right;
+        }
+        .userlist-top-item-disable {
+            border-color: fade(@warning, 40%);
+            color: fade(@warning, 80%)
+        }
+    }
+    .Pagination-zdy {
+        overflow: hidden;
+        // position: fixed;
+        // bottom: 11%;
+        // right: 5%;
+        .ant-pagination {
+            float: right;
+            min-width: 200px;
+            margin-right: 4px;
+        }
+    }
+    .AddNewUser-wrapper {
+        padding: 2%;
+        .path {
+            font-size: 16px;
+            span {
+                padding: 0 .1%;
+            }
+            .nowpath {
+                font-size: 16px;
+                color: @button;
+            }
+            .leadfile {
+                font-size: 16px;
+                color: @button;
+                display: inline-block;
+                float: right;
+                cursor: pointer;
+                .Uploadshow {
+                    color: @button;
+                    display: inline-block;
+                    .ant-upload.ant-upload-select {
+                        width: 60px;
+                        color: @button;
+                        .ant-upload {
+                            color: @button;
+                        }
+                    }
+                }
+            }
+        }
+        .name {
+            font-size: 18px;
+            color: @font-color;
+            font-weight: 800;
+            margin: 1% 0;
+            overflow: hidden;
+            .cancel {
+                float: right;
+            }
+        }
+        .ant-steps-item-description {
+            .ant-row {
+                margin: auto 0 !important;
+            }
+            .Multistagewrappe{
+                margin-bottom: 1%;
+                 .wrapper-left .content {
+                height: calc(~"100% - 150px");
+            }
+        }
+  
+        }
+
+        .ant-steps-item-process .ant-steps-item-icon {
+            background-color: @warning;
+            border-color: @warning;
+        }
+        .ant-steps-item-process {
+            .ant-steps-item-content {
+                .ant-steps-item-title {
+                    font-size: 18px;
+                    color: @font-color;
+                }
+            }
+        }
+     
+
+        .ant-steps-item-finish {
+            .ant-steps-item-content {
+                .ant-steps-item-title {
+                    font-size: 18px;
+                    color: @font-color;
+                }
+            }
+            .ant-steps-item-icon {
+                border-color: @warning;
+            }
+            .ant-steps-item-icon>.ant-steps-icon {
+                color: @warning;
+            }
+        }
+        .ant-steps-item-finish>.ant-steps-item-tail:after {
+            background-color: @warning;
+        }
+        .from-wraper {
+            .ant-btn {
+                margin-left: 4%;
+                margin-top: 1%;
+            }
+        }
+    }
+    .role-wrapper {
+        .labe {
+            line-height: 39.999px;
+        }
+        .roleselect {
+            position: relative;
+            .ant-select {
+                position: absolute;
+                z-index: 99;
+            }
+        }
+        .userlist-top-item {
+            margin-top: 24%;
+            background-color: @button;
+        }
+    }
+    .Channemodel {
+        .wrapper {
+            position: relative;
+            width: 60%;
+            top: 0;
+            left: 0;
+            transform: translate(0, 0);
+            height: 448px;
+            border-radius: 4px;
+            padding: 1%;
+            border: 1px solid fade(@font-color, 40%);
+            .showcontent {
+                overflow: hidden;
+                float: left;
+                width: 50%;
+                .ant-input-search {
+                    float: left;
+                }
+                .showtree {
+                    float: left;
+                    width: 100%;
+                    height: 400px;
+                    overflow-y: scroll;
+                    .ant-tree li {
+                        text-align: left;
+                    }
+                }
+            }
+            .showSelect {
+                float: left;
+                width: 50%;
+               height: 100%;
+                padding-left: 24px;
+                .agents {
+                      height: calc(~"100% - 36px");
+                    overflow-y: scroll;
+                        color: fade(@font-color, 80%);
+                            position: relative;
+                    .agentsCotnent {
+                     overflow: hidden;
+                 
+                        .showagengt {
+                            width: 100%;
+                            display: inline-block;
+                            float: left;
+                            .anticon {
+                               float: right;
+                            padding-right: 6%;
+                            cursor: pointer
+                        }
+                        }
+                 
+                    }
+               
+                }
+                 .footer{
+                    margin: 2%;
+                    text-align: right;
+                    .ant-btn-primary{
+                        margin-right: 2%;
+                    }
+                }
+                
+            }
+        }
+    }
+    .content {
+        overflow: hidden;
+    }
+    .showGameList {
+        overflow: hidden;
+        width: 720px;
+        height: 448px;
+        .selectgame {
+            width: 50%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            .ant-checkbox-group {
+                width: 100%;
+                .ant-checkbox-group-item {
+                    width: 100%;
+                }
+            }
+            float: left;
+        }
+        .showgame {
+            width: 50%;
+            float: left;
+            opacity: 1;
+            color: fade(@font-color, 80%);
+            border-left: 1px solid fade(@font-color, 40%);
+
+            .data-content {
+                height: 378px;
+                padding: 5px;
+                .item {
+                    width: 80%;
+                    display: inline-block;
+                }
+               
+            }
+
+            .btn {
+                text-align: right;
+                overflow: hidden;
+                float: left;
+                line-height: 12px;
+                height: 32px;
+                width: 100%;
+                .ant-btn {
+                    margin-right: 2%;
+                }
+            }
+        }
+    }
+    .content-data {
+
+        overflow: hidden;
+
+        .showGameok,
+        .box {
+            overflow: hidden;
+
+            .okshow {
+                float: left;
+                padding: .5%;
+                margin: 0 1%;
+                font-size: 14px;
+                color: fade(@font-color, 80%);
+                background-color: fade(@font-color, 40%);
+                border-radius: 4px;
+            }
+        }
+        .box {
+            border: 1px solid fade(@font-color, 40%);
+            padding: 2%;
+            margin: 1%;
+            border-radius: 4px;
+        }
+        .Channewrapper {
+            border: 1px solid fade(@font-color, 40%);
+            padding: 1%;
+            margin: 1%;
+            border-radius: 4px;
+            .wrapper-gamelsit {
+                overflow: hidden;
+              
+                .content-data {
+                    overflow: hidden;
+                    .showGameok {
+                        float: left;
+                        margin: 1%;
+                    }
+                }
+            }
+        }
+        .reload-writer {
+            display: inline-block;
+            padding: .5%;
+        }
+        .blue {
+            color: @button;
+            padding: .5%;
+            cursor: pointer;
+        }
+    }
+    .footer {
+        overflow: hidden;
+        .btn,
+        .setgamerole,
+        .pre {
+            float: left;
+            margin: 2%;
+        }
+        .bule {
+            color: @button;
+        }
+        .setgamerole {
+            border-color: @button;
+        }
+        .pre {
+            border: none;
+        }
+    }
+    .dim-footer {
+        .btn,
+        .setgamerole,
+        .pre {
+            float: left;
+            margin: 2%;
+        }
+        color: fade(@font-color, 50%);
+        .btn {
+            color: @baise;
+            .ant-btn-primary {
+                border-color: fade(@font-color, 50%);
+                background-color: fade(@font-color, 50%);
+            }
+        }
+        .pre {
+            border: none;
+        }
+    }
+    .department-wraper-box{
+
+        width: 96%;
+        margin: 1% auto;
+        .item{
+            width: 100%;
+            border: 1px solid #BBC4CE;
+            border-radius: 4px;
+            color: fade( #425879,60%);
+            font-size: 12px;
+            cursor: pointer;
+            margin: 1% 0;
+            .top{
+                font-size: 16px;
+              .department{
+                  font-weight: 800;
+                color: #425879
+            }
+            padding: 6% 5%;  
+            }
+            .bottom{
+                span{
+                    padding: 0 1%;
+                }
+                padding: 0 4% 2% 4%;
+            }
+            &:hover{
+                border-color: fade(@button,40%);
+                transform: translateY(-3px)
+            }
+           
+        }
+    }
+}
+
+.addNewuserToUserlist {
+    overflow: hidden;
+    .showGameList {
+        .selectgame {
+            .gamelsit {
+                overflow-y: scroll;
+                height: 410px;
+                .ant-checkbox-group {
+
+                    overflow-y: hidden;
+                    overflow-x: hidden;
+                    width: 100%;
+                    .ant-checkbox-group-item {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .showgame{
+            .data-content{
+                 .anticon{
+                    display: inline-block;
+                    float: right;
+                    margin-right: 3%;
+                    cursor: pointer;
+                }
+            }
+            .btn{
+           float: right; 
+        }
+        }
+        
+    }
+    .ant-modal-body{
+        .Multistagewrapper .wrapper-left .contentPar{
+            height: calc(~"100% - 115px");
+        }
+    }
+}
+
+.Multistagewrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid fade(@font-color, 20%);
+    border-radius: 4px;
+    height: 520px;
+    .wrapper-right,
+    .wrapper-left {
+        width: 50%;
+        float: left;
+        padding: 2% 0;
+        .MultistageCheckItem {
+            height: 100%;
+            >div {
+                &:first-child {
+                    margin-top: 0;
+                }
+                ;
+                overflow:hidden;
+                margin-top: 4%;
+            }
+            .ant-checkbox-wrapper {
+                margin-left: 0px;
+                display: inline-block;
+                min-width: 52%;
+
+                span {
+                    color: @font-color
+                }
+            }
+        }
+    }
+    .wrapper-right {
+        padding: 2%;
+        h3 {
+            font-size: 14px;
+            color: fade(@font-color, 40%)
+        }
+
+    }
+    .wrapper-left {
+        // width: 48%;
+        .number {
+            padding: 4%;
+            color: @button;
+        }
+          .contentPar{
+            padding: 0 0 0 24px;
+            height: calc(~"100% - 155px");
+            overflow:hidden;
+            .content {
+            height: 100%;
+            overflow-y: auto;
+            width: calc(~"100% + 10px");
+            >div {
+                &:first-child {
+                    margin-top: 0;
+                }
+                ;
+                overflow:hidden;
+                margin-top: 4%;
+            }
+            }
+          }
+        
+        height: 100%;
+        border-left:1px solid fade(@font-color, 20%);
+        h3 {
+            color: fade(@font-color, 40%);
+            font-size: 14px;
+        }
+        .DelItem {
+            .anticon {
+                display: inline-block;
+                margin-right: 3%;
+                border-radius: 50%;
+                padding: .5%;
+                float: right;
+                background-color: fade(@font-color, 20%);
+                cursor: pointer;
+            }
+
+            div {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                color: @font-color;
+            }
+        }
+        .MultistageCheckItem {
+            .footer {
+                padding: 2%;
+                text-align: right;
+                box-shadow: 0px 0px 4px 0px fade(@font-color, 40%);
+                .ant-btn-primary {
+                    margin-right: 4%;
+                }
+            }
+        }
+    }
+}
+
+.MultistageCheckBoxs {
+    .ant-tabs-content {
+        padding: 2% 0;
+        padding-top: 0;
+    }
+    .ant-tabs.ant-tabs-card {
+        .ant-tabs-bar {
+            border-bottom: none;
+            .ant-tabs-nav-container {
+                height: auto;
+            }
+        }
+    }
+    .ant-tabs-bar {
+        border-bottom: none;
+        margin-bottom: 0px;
+        .ant-tabs-nav-container {
+            height: auto;
+        }
+        .ant-tabs-nav {
+            width: 100%;
+            margin-bottom: 8px;
+            .ant-tabs-tab {
+                // width: 32%;
+                display: block;
+                float: left;
+                height: 20px;
+                line-height: 20px;
+                margin: 3px 1px;
+                color: fade(@font-color, 60%);
+                background-color: @baise;
+                border: none;
+                font-size: 14px;
+                border-radius: 4px;
+                padding: 0 6px;
+            }
+            ;
+            .ant-tabs-tab-active {
+                color: @button;
+                padding-bottom: 0px;
+            }
+        }
+    }
+    .ant-tabs-tabpane-active{
+         height: 380px;
+         overflow: hidden;
+        .panPar{
+            width: calc(~"100% + 10px");
+            height: 380px;
+            overflow-y: auto;
+        }
+    }
+}
+
+.showSelectRole {
+    overflow: hidden;
+    .item-col {
+        background-color: fade(@succeed, 80%);
+        color: @baise;
+        margin: 1%;
+        padding: 1%;
+        border-radius: 4px;
+        overflow: hidden;
+        float: left;
+        .itemlist-wrapper {
+            float: left;
+            margin: 0 1%;
+        }
+        .itemlist {
+
+            display: inline-block;
+            float: left;
+            padding-left: 4px;
+            padding-right: 4px;
+            border-right: 1px solid;
+
+            &:nth-child(3) {
+                border-right: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+            .anticon {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.showSelectRoleComplete {
+    overflow: hidden;
+    .item-col {
+        background-color: fade(@font-color, 40%);
+        color: fade(@font-color, 80%);
+        margin: 1%;
+        padding: 1%;
+        border-radius: 4px;
+        overflow: hidden;
+        float: left;
+        .itemlist {
+
+            display: inline-block;
+            float: left;
+            padding-left: 4px;
+            padding-right: 4px;
+            border-right: 1px solid; // &:nth-child(3) {
+            //     border-right: none;
+            // }
+            &:last-child {
+                border-right: none;
+            } // &:last-child {
+            //     display: none;
+            // }
+        }
+    }
+}

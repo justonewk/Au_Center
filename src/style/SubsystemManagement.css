@@ -1,0 +1,541 @@
+.SubsystemManagement {
+  float: left;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.SubsystemManagement .ant-pagination {
+  float: right;
+  min-width: 200px;
+}
+.SubsystemManagement .subsysLeft {
+  background: #fff;
+}
+.SubsystemManagement .subsysLeft .subsysLeftTop {
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  color: #425879;
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+}
+.SubsystemManagement .subsysLeft .subsysLeftTop .name {
+  text-align: left;
+  float: left;
+  padding: 0 24px;
+}
+.SubsystemManagement .subsysLeft .subsysLeftTop .addsub {
+  float: right;
+  text-align: right;
+  line-height: 70px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+.SubsystemManagement .subsysLeft .ant-menu {
+  background: #fff;
+  color: #666;
+  overflow: hidden;
+}
+.SubsystemManagement .subsysLeft .ant-menu .ant-menu-item-active:after {
+  border-right: 2px solid #1f8ded;
+}
+.SubsystemManagement .subsysLeft .ant-menu .ant-menu-inline .ant-menu-item,
+.SubsystemManagement .subsysLeft .ant-menu .ant-menu-inline .ant-menu-submenu-title {
+  width: 100%;
+}
+.SubsystemManagement .subsysLeft .ant-menu .ant-menu-item:hover {
+  width: 100%;
+}
+.SubsystemManagement .subsysLeft .subLeftTitle {
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  padding-top: 20px;
+  line-height: 40px;
+  padding-left: 24px;
+}
+.SubsystemManagement .subsysLeft .addBtn {
+  margin-left: 20px;
+  border: 1px dashed #ccc;
+}
+.SubsystemManagement .subsysLeft .leftText {
+  display: block;
+  float: left;
+  width: 100%;
+  color: rgba(51, 88, 123, 0.6);
+}
+.SubsystemManagement .subsysLeft .more {
+  width: 30px;
+  position: absolute;
+  right: 0;
+}
+.SubsystemManagement .subsysLeft .ant-dropdown-link {
+  display: block;
+  width: 30px;
+  float: right;
+  color: #666;
+}
+.SubsystemManagement .userlist {
+  background: #fff;
+  padding: 0 20px;
+  float: left;
+  width: 100%;
+}
+.SubsystemManagement .userlist .topBtnGroup {
+  float: left;
+  width: 100%;
+  height: 76px;
+  border-bottom: 1px solid rgba(185, 197, 208, 0.4);
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.SubsystemManagement .userlist .topBtnGroup .titleserch {
+  float: right;
+  width: 20%;
+}
+.SubsystemManagement .userlist .topBtnGroup .addchildSys {
+  float: left;
+  margin: 20px 0px;
+  height: 36px;
+}
+.SubsystemManagement .userlist .topBtnGroup .refresh {
+  float: right;
+  margin: 20px;
+  height: 36px;
+}
+.SubsystemManagement .userlist .systemCardGroup {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.SubsystemManagement .userlist .systemCardGroup .subtemp {
+  margin: 154px 0;
+}
+.SubsystemManagement .userlist .systemCardGroup .sysitem {
+  margin-bottom: 24px;
+}
+.SubsystemManagement .SubsystemDetailItemTop {
+  width: 100%;
+  float: left;
+}
+.SubsystemManagement .SubsystemDetailItemTop .colSubsystemDetailItemTopForm {
+  min-height: 107px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .errtips {
+  float: left;
+  color: #f5222d !important;
+  font-size: 12px !important;
+}
+.SubsystemManagement .SubsystemDetailItemTop .hasSameSName {
+  border: 1px solid #f5222d;
+  box-shadow: 0 0 0;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top {
+  width: 100%;
+  float: left;
+  min-height: 50px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top img {
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+  float: left;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .avatar-uploader {
+  float: left;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .avatar-uploader .ant-upload {
+  width: 80px;
+  height: 80px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .avatar-uploader img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title {
+  float: left;
+  padding: 0 20px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title .leftName {
+  float: left;
+  font-size: 16px;
+  line-height: 50px;
+  padding-right: 20px;
+  color: rgba(51, 88, 123, 0.8);
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #425979;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title .myname {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title .setName {
+  height: 30px;
+  line-height: 30px;
+  width: 220px;
+  margin: 10px 0 0 0;
+  float: left;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .title span {
+  color: rgba(51, 88, 123, 0.4);
+  font-size: 14px;
+  width: 100%;
+  display: block;
+}
+.SubsystemManagement .SubsystemDetailItemTop .top .Btn {
+  float: right;
+  margin-left: 20px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .roleDetailItem {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+.SubsystemManagement .SubsystemDetailItemTop .roleDetailItem .leftName {
+  float: left;
+  font-size: 16px;
+  padding: 0 20px;
+  line-height: 30px;
+  color: rgba(51, 88, 123, 0.8);
+}
+.SubsystemManagement .SubsystemDetailItemTop .roleDetailItem .desc {
+  float: left;
+  width: 80%;
+  line-height: 18px;
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.8);
+}
+.SubsystemManagement .SubsystemDetailItemTop .setdesc {
+  float: left;
+  width: 60%;
+  line-height: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: rgba(51, 88, 123, 0.8);
+}
+.SubsystemManagement .SubsystemDetailItemTop .form {
+  float: left;
+  width: 100%;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .roleItem {
+  width: 200px;
+  float: left;
+  padding-left: 20px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .roleItem .itemtitle {
+  color: rgba(51, 88, 123, 0.6);
+  font-size: 14px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .roleItem .itemtext {
+  color: #33587b;
+  font-size: 16px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-label {
+  height: 35px;
+  line-height: 35px;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-label label {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper {
+  font-size: 16px;
+  color: rgba(51, 88, 123, 0.8);
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-item-children p {
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-item-children .text {
+  height: auto;
+  line-height: 25px;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-item-children .exportBtn {
+  border: 1px solid rgba(31, 141, 237, 0.6);
+  color: #1f8ded;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-item-children .p_group {
+  height: auto;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-item-children .p_group span {
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  text-align: center;
+}
+.SubsystemManagement .SubsystemDetailItemTop .form .ant-form-item-control-wrapper .ant-form-explain {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.SubsystemManagement .SubsystemDetailItemBottom {
+  width: 100%;
+  float: left;
+}
+.SubsystemManagement .SubsystemDetailItemBottom .ant-tabs-tabpane {
+  min-height: 500px;
+}
+.SubsystemManagement .SubsystemDetailItemBottom .topGroup {
+  width: 98%;
+  margin: 1% 1%;
+}
+.SubsystemManagement .SubsystemDetailItemBottom .topGroup .forbide {
+  margin: 0 24px;
+}
+.SubsystemManagement .SubsystemDetailItemBottom .editpermit {
+  margin: 20px;
+  max-width: 500px;
+}
+.SubsystemManagement .SubsystemDetailItemBottom .tempimg {
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  margin-left: -200px;
+  left: 50%;
+}
+.SubsystemManagement .addSubSysytem .top {
+  width: 100%;
+  margin: 1% 0;
+  font-size: 16px;
+}
+.SubsystemManagement .addSubSysytem .top .newsubTip {
+  color: #1f8ded;
+}
+.SubsystemManagement .addSubSysytem .addsubForm {
+  width: 520px;
+  float: left;
+  margin-left: 10%;
+}
+.SubsystemManagement .addSubSysytem .addsubForm .ant-form-item-label {
+  height: 30px;
+  line-height: 30px;
+}
+.SubsystemManagement .addSubSysytem .addsubForm .ant-form-item-label label {
+  color: #33587b;
+  font-size: 14px;
+  font-weight: bold;
+}
+.SubsystemManagement .addSubSysytem .addsubForm .ant-form-item-control-wrapper .tips {
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  color: rgba(51, 88, 123, 0.4);
+}
+.SubsystemManagement .addSubSysytem .addsubForm .ant-form-item-control-wrapper .ant-form-item-children {
+  color: rgba(51, 88, 123, 0.6);
+}
+.SubsystemManagement .addSubSysytem .addSubBtnGroup {
+  float: left;
+  width: 100%;
+}
+.SubsystemManagement .addSubSysytem .addSubBtnGroup .ant-btn-primary {
+  margin: 1% 12px 50px 10%;
+}
+.SubsystemManagement .ant-upload-drag {
+  background: rgba(31, 141, 237, 0.04);
+}
+.SubsystemManagement .ant-upload-drag .ant-upload-text {
+  font-size: 14px !important;
+  color: #33587b !important;
+}
+.SubsystemManagement .ant-upload-drag .ant-upload-hint {
+  color: rgba(66, 88, 121, 0.6) !important;
+  font-size: 12px !important;
+}
+.addsubModal {
+  text-align: center;
+}
+.addsubModal .type {
+  height: 110px;
+  margin: auto;
+}
+.addsubModal .tips {
+  font-size: 24px;
+  height: 24px;
+  text-align: center;
+}
+.addsubModal .tips .error {
+  color: rgba(249, 70, 115, 0.8);
+}
+.addsubModal .tips .success {
+  color: #1f8ded;
+}
+.addsubModal .detail {
+  width: 100%;
+}
+.addsubModal .detail .errortext {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+  margin: 36px;
+  line-height: 18px;
+}
+.addsubModal .detail .top {
+  height: 48px;
+  line-height: 48px;
+}
+.addsubModal .detail .top img {
+  width: 48px;
+  height: 100%;
+  border-radius: 50%;
+  float: left;
+}
+.addsubModal .detail .top .text {
+  float: left;
+  height: 100%;
+  padding-left: 16px;
+  text-align: left;
+}
+.addsubModal .detail .top .text .title {
+  font-size: 18px;
+  color: #33587b;
+  margin: 0;
+  line-height: 30px;
+}
+.addsubModal .detail .top .text .time {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+  margin: 0;
+  line-height: 18px;
+}
+.addsubModal .detail .desc {
+  font-size: 16px;
+  color: rgba(51, 88, 123, 0.8);
+  line-height: 18px;
+  text-align: left;
+  margin-top: 16px;
+}
+.addsubModal .detail .keyname {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.6);
+  margin: 0;
+  margin-top: 16px;
+  line-height: 18px;
+  height: 18px;
+  text-align: left;
+}
+.addsubModal .detail .keytext {
+  font-size: 14px;
+  color: rgba(51, 88, 123, 0.8);
+  margin: 0;
+  line-height: 16px;
+  text-align: left;
+}
+.addsubModal .detail .footer {
+  height: 50px;
+  line-height: 50px;
+}
+.addsubModal .detail .footer .colse {
+  margin-left: 12px;
+}
+.addNewuserToRole .ant-modal-body {
+  float: left;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+.addNewuserToRole .wrapper-gamelsit {
+  float: left;
+  width: 100%;
+  min-height: 300px;
+}
+.addNewuserToRole .wrapper-gamelsit .content {
+  float: left;
+  width: 100%;
+}
+.addNewuserToRole .wrapper-gamelsit .content .ant-checkbox-group {
+  max-height: 380px;
+  overflow-y: auto;
+}
+.addNewuserToRole .wrapper-gamelsit .content .ant-checkbox-group .ant-checkbox-group-item {
+  height: 18px;
+  min-width: 200px;
+  line-height: 18px;
+  margin: 8px;
+}
+.addNewuserToRole .showGameList {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.addNewuserToRole .showGameList .gamelsit {
+  width: 100%;
+}
+.addNewuserToRole .showGameList .gamelsit label:first-child {
+  width: 100%;
+}
+.addNewuserToRole .selectgame {
+  float: left;
+  width: 50%;
+}
+.addNewuserToRole .showgame {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-left: 30px;
+}
+.addNewuserToRole .showgame .hasSelect {
+  float: left;
+}
+.addNewuserToRole .showgame div {
+  height: 18px;
+  line-height: 18px;
+  margin: 8px 0;
+  color: rgba(51, 88, 123, 0.8);
+}
+.addNewuserToRole .showgame div span {
+  padding: 10px;
+}
+.addNewuserToRole .showgame div .anticon {
+  cursor: pointer;
+}
+.addNewuserToRole .showgame .data-content {
+  float: left;
+  width: 100%;
+  height: 350px;
+  overflow-y: auto;
+}
+.addNewuserToRole .showgame .btn {
+  float: left;
+}
+.addNewuserToRole .showgame .btn .ant-btn {
+  margin: 0 10px;
+}
+.contactname {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Lookpermit .ant-modal-header {
+  padding: 14px 24px;
+}
+.Lookpermit .ant-modal-header .btn {
+  margin-right: 24px;
+}
+.Lookpermit .ant-modal-header .btncopy {
+  color: #1f8ded;
+  border: 1px solid #1f8ded;
+}
+.Lookpermit .ContentText {
+  height: 500px;
+}
+.htdisabled {
+  background-color: rgba(185, 197, 208, 0.4);
+}
+.htdisabled:hover {
+  background-color: rgba(185, 197, 208, 0.4);
+}
+.htdisabled:hover a {
+  cursor: not-allowed;
+}
